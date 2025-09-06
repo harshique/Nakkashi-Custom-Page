@@ -1,11 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "custom-jewellery",
-      "settings": {
-        "title": "Welcome to the Custom Jewellery Page",
-        "description": "This is your Custom Jewellery Page content."
-      }
+      "type": "custom-jewellery"
     }
   },
   "order": ["main"]
