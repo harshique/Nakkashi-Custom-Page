@@ -1,4 +1,13 @@
 {{ 'footer.css' | asset_url | stylesheet_tag }}
+
+<style>
+{% if page.template_suffix == 'custom-jewellery' %}
+m-footer {
+  display: none !important;
+}
+{% endif %}
+</style>
+
 {%- if section.settings.show_currency_selector
   or section.settings.show_country_selector
   or section.settings.show_language_selector
