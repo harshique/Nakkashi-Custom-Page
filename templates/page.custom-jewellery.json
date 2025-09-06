@@ -16,7 +16,10 @@
         "hero_title": "THE STORY CHAIN®",
         "hero_description": "Create your own personalised solid gold Story Chain® necklace, bracelet or anklet with our online builder, and mark every moment of your story with meaningful charms.",
         "hero_cta_button": "CREATE YOUR STORY",
-        "hero_image": "shopify://shop_images/Story_chain_cutoff.webp"
+        "hero_image": "shopify://shop_images/Story_chain_cutoff.webp",
+        "necklace_image": "shopify://shop_images/neclace.jpg",
+        "anklet_image": "shopify://shop_images/jewelleytbd.jpg",
+        "bracelet_image": "shopify://shop_images/neclace.jpg"
       }
     }
   },
