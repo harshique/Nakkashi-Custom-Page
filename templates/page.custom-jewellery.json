@@ -1,12 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "custom-jewellery",
       "settings": {
-        "title": "Welcome to the Custom Jewellery Page",
-        "description": "This is your Custom Jewellery Page content."
+        "hero_subtitle": "Your Story, Your stack",
+        "hero_title": "THE STORY CHAIN®",
+        "hero_description": "Create your own personalised solid gold Story Chain® necklace, bracelet or anklet with our online builder, and mark every moment of your story with meaningful charms.",
+        "hero_cta_button": "CREATE YOUR STORY",
+        "hero_image": "shopify://shop_images/jewelleytbd.jpg"
       }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
