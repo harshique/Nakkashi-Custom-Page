@@ -1,0 +1,25 @@
+<!-- filepath: sections/custom-page-section.liquid -->
+<div class="custom-page">
+  <h1>{{ section.settings.title }}</h1>
+  <p>{{ section.settings.description }}</p>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Page Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Welcome to the Custom Page"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "This is your custom page content."
+    }
+  ]
+}
+{% endschema %}
