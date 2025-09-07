@@ -11,7 +11,9 @@
       margin-bottom: -80px;
     }
 
-    .two-div-layout {
+    {% # This is First Screen CSS %}
+
+    .first-screen {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -68,7 +70,9 @@
         border-color: #555;
       }
 
-    .three-div-layout {
+      {% # This is Second Screen CSS %}
+
+    .second-screen {
       display: none;
       justify-content: center;
       height: 88vh;
@@ -135,7 +139,7 @@
     }
 
     @media (max-width: 768px) {
-      .two-div-layout {
+      .first-screen {
         flex-direction: column;
         text-align: center;
       }
@@ -146,7 +150,7 @@
       .section-2 {
         width: 100%;
       }
-      .three-div-layout {
+      .second-screen {
         flex-direction: column;
       }
       .card {
@@ -154,10 +158,113 @@
       }
     }
 
+    {% # This is Third Screen CSS %}
+
+    .third-screen {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      height: 88vh;
+    }
+
+    .third-screen-section-1 {
+      flex: 1;
+      height:100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover
+    }
+
+    .third-screen-section-2 {
+      flex: 1;
+      height: 100%;
+    }
+
+
+.right-panel {
+  height:88vh;
+  width: 320px;
+  background-color: #faf7f5;
+  border-left: 1px solid #e2e2e2;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.panel-section {
+  margin-bottom: 24px;
+  position: relative;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #333;
+}
+
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.option img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.option p {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #444;
+}
+
+.option:hover {
+  border-color: #ccc;
+  background: #fdfdfd;
+}
+
+.option.selected {
+  border: 1px solid #000;
+}
+
+.expand-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #555;
+}
+
+.charms-count {
+  display: inline-block;
+  font-size: 12px;
+  color: #777;
+  margin-left: 10px;
+}
+
+
 </style>
 
 <div class="custom-jewellery">
-  <div class="two-div-layout">
+  <div class="first-screen">
     <div class="section-1" style="background-image: url('{{ section.settings.hero_image | image_url }}');">
     </div>
     <div class="section-2" >
@@ -170,7 +277,7 @@
     </div>
   </div>
 
-  <div class="three-div-layout">
+  <div class="second-screen">
     <div id="necklace-card" class="card" style="background-image: url('{{ section.settings.necklace_image | image_url }}');">
       <div class="card-content">
         <h2>Necklace</h2>
@@ -194,7 +301,18 @@
       </div>
     </div>
   </div>
+
+  <div class="third-screen" >
+      <div class="third-screen-section-1" style="background-image: url('{{ section.settings.third_screen_bg_image | image_url }}');">
+      </div>
+      <div id="third-screen-section-2" class="third-screen-section-2">
+
+      </div>
+  </div>
+
 </div>
+
+<script src="{{ 'vite-app.js' | asset_url }}"></script>
 
 <script>
  document.addEventListener('DOMContentLoaded', () => {
@@ -202,29 +320,37 @@
 
     // Get the button and the div
     const createButton = document.getElementById('create_cta_btn');
-    const twoDivLayout = document.querySelector('.two-div-layout');
-    const threeDivLayout = document.querySelector('.three-div-layout')
+    const firstScreen = document.querySelector('.first-screen');
+    const secondScreen = document.querySelector('.second-screen')
+    const thirdScreen = document.querySelector('.third-screen')
 
     // Add a click event listener to the button
     createButton.addEventListener('click', (event) => {
       event.preventDefault(); // Prevent default link behavior
-      if (twoDivLayout) {
-        twoDivLayout.style.display = 'none'; // Hide the div
-        threeDivLayout.style.display = 'flex'; // show the div
+      if (firstScreen) {
+        firstScreen.style.display = 'none'; // Hide the div
+        secondScreen.style.display = 'flex'; // show the div
 
         const necklaceCard = document.getElementById('necklace-card')
         const ankletCard = document.getElementById('anklet-card')
         const braceletCard = document.getElementById('bracelet-card')
 
+        function showThirdScreen(){
+          secondScreen.style.display = 'none';
+          thirdScreen.style.display = 'flex';
+        }
+
         necklaceCard.addEventListener('click',(event) => {
           customProduct['product_type'] = 'Necklace'
-          console.log(customProduct)
+          showThirdScreen()
         })
         ankletCard.addEventListener('click',(event) => {
           customProduct['product_type'] = 'Anklet'
+          showThirdScreen()
         })
         braceletCard.addEventListener('click',(event) => {
           customProduct['product_type'] = 'Bracelet'
+          showThirdScreen()
         })
       }
     });
@@ -238,7 +364,7 @@
   "settings": [
     {
       "type": "header",
-      "content": "Page 1 Settings"
+      "content": "Screen 1 Settings"
     },
     {
       "type": "text",
@@ -271,7 +397,7 @@
     },
     {
       "type": "header",
-      "content": "Page 2 Settings"
+      "content": "Screen 2 Settings"
     },
     {
       "type": "image_picker",
@@ -287,6 +413,15 @@
       "type": "image_picker",
       "id": "bracelet_image",
       "label": "Bracelet Background Image"
+    },
+    {
+      "type": "header",
+      "content": "Screen 3 Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "third_screen_bg_image",
+      "label": "Third Screen Background Image"
     },
   ]
 }
