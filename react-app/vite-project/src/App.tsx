@@ -1,4 +1,3 @@
-import "./App.css";
 import RightPanel from "./RightPanel.tsx";
 
 function App() {
