@@ -18,6 +18,62 @@ const productTypes = [
   },
 ];
 
+const RenderProductTypes = ({
+  customProductDetails,
+  setCustomProductDetails,
+}: any) => {
+  return (
+    <>
+      {productTypes.map((product) => (
+        <div
+          className={`grid-item ${
+            customProductDetails.productType === product.id ? "selected" : ""
+          }`}
+          key={product.id}
+          onClick={() => {
+            setCustomProductDetails({
+              ...customProductDetails,
+              productType: product.id,
+            });
+          }}
+        >
+          <img src={product.img} alt="Necklace" />
+          <div className="label">{product.label}</div>
+        </div>
+      ))}
+    </>
+  );
+};
+
+const RenderStylesTypes = ({
+  stylesProducts,
+  customProductDetails,
+  setCustomProductDetails,
+}: any) => {
+  return (
+    <>
+      {stylesProducts.map((product: any) => (
+        <div
+          className={`grid-item ${
+            customProductDetails.style === product.title ? "selected" : ""
+          }`}
+          key={product.id}
+          onClick={() => {
+            setCustomProductDetails({
+              ...customProductDetails,
+              style: product.title,
+            });
+          }}
+        >
+          <img src={product.images[0]} />
+          <div className="label">{product.title}</div>
+          <div className="price">{product.price}</div>
+        </div>
+      ))}
+    </>
+  );
+};
+
 export default function RightPanel({
   collectionsData,
 }: {
@@ -86,6 +142,7 @@ export default function RightPanel({
           onClick={() => setCurrentTab("style")}
         >
           <h3 className="section-title">STYLE</h3>
+          {customProductDetails.style && customProductDetails.style}
           <button className="expand-btn">›</button>
         </div>
 
@@ -114,19 +171,24 @@ export default function RightPanel({
       </div>
       <div className="right-panel">
         <div className="grid-container">
-          {productTypes.map((product) => (
-            <div
-              className={`grid-item ${
-                customProductDetails.productType === product.id
-                  ? "selected"
-                  : ""
-              }`}
-              key={product.id}
-            >
-              <img src={product.img} alt="Necklace" />
-              <div className="label">{product.label}</div>
-            </div>
-          ))}
+          {currentTab === "productType" ? (
+            <RenderProductTypes
+              customProductDetails={customProductDetails}
+              setCustomProductDetails={setCustomProductDetails}
+            />
+          ) : currentTab === "style" ? (
+            <RenderStylesTypes
+              stylesProducts={
+                collectionsData.find(
+                  (col: any) => col.handle === "necklace-chain-styles"
+                )?.products
+              }
+              customProductDetails={customProductDetails}
+              setCustomProductDetails={setCustomProductDetails}
+            />
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>
