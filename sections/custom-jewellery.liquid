@@ -186,6 +186,7 @@
   position: relative;
   padding-bottom: 8px;
   border-bottom: 1px solid #eee;
+  cursor: pointer
 }
 
 .section-title {
@@ -319,6 +320,13 @@ padding: 20px;
       color: black;
     }
 
+.highlighted {
+  background-color: #f0f8ff; /* Light blue background */
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 6px;
+  padding: 10px;
+}
+
 </style>
 
 <div class="custom-jewellery">
@@ -363,12 +371,58 @@ padding: 20px;
   <div class="third-screen" >
       <div class="third-screen-section-1" style="background-image: url('{{ section.settings.third_screen_bg_image | image_url }}');">
       </div>
-      <div id="third-screen-section-2" class="third-screen-section-2">
+      <div id="third-screen-section-2" class="third-screen-section-2" >
 
       </div>
   </div>
 
 </div>
+<script id="collections-data" type="application/json">
+[
+  {% for c in collections %}
+    {
+      "title": {{ c.title | json }},
+      "handle": {{ c.handle | json }},
+      "url": {{ c.url | json }},
+      "description": {{ c.description | strip_html | json }},
+      "products_count": {{ c.products_count | json }},
+      "products": [
+        {% for product in c.products %}
+          {
+            "id": {{ product.id | json }},
+            "title": {{ product.title | json }},
+            "handle": {{ product.handle | json }},
+            "url": {{ product.url | json }},
+            "price": {{ product.price | money | json }},
+            "compare_at_price": {{ product.compare_at_price | money | json }},
+            "available": {{ product.available | json }},
+            "vendor": {{ product.vendor | json }},
+            "product_type": {{ product.type | json }},
+            "tags": {{ product.tags | json }},
+            "featured_image": {{ product.featured_image | img_url: '600x' | json }},
+            "images": [
+              {% for img in product.images %}
+                {{ img | img_url: '600x' | json }}{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            ],
+            "variants": [
+              {% for variant in product.variants %}
+                {
+                  "id": {{ variant.id | json }},
+                  "title": {{ variant.title | json }},
+                  "sku": {{ variant.sku | json }},
+                  "price": {{ variant.price | money | json }},
+                  "available": {{ variant.available | json }}
+                }{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            ]
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+</script>
 
 <script src="{{ 'vite-app.js' | asset_url }}" ></script>
 

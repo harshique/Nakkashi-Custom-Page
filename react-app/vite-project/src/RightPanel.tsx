@@ -18,7 +18,14 @@ const productTypes = [
   },
 ];
 
-export default function RightPanel() {
+export default function RightPanel({
+  collectionsData,
+}: {
+  collectionsData: any;
+}) {
+  console.log("Collections Data:", collectionsData);
+  const [currentTab, setCurrentTab] = useState("productType");
+
   const [customProductDetails, setCustomProductDetails] = useState({
     productType: "",
     style: "",
@@ -60,26 +67,46 @@ export default function RightPanel() {
     <div className="container">
       <div className="left-panel">
         {/* Product Type */}
-        <div className="panel-section">
+        <div
+          className={`panel-section ${
+            currentTab === "productType" ? "highlighted" : ""
+          }`}
+          onClick={() => setCurrentTab("productType")}
+        >
           <h3 className="section-title">PRODUCT TYPE</h3>
           {customProductDetails.productType && customProductDetails.productType}
           <button className="expand-btn">›</button>
         </div>
 
         {/* Style */}
-        <div className="panel-section">
+        <div
+          className={`panel-section ${
+            currentTab === "style" ? "highlighted" : ""
+          }`}
+          onClick={() => setCurrentTab("style")}
+        >
           <h3 className="section-title">STYLE</h3>
           <button className="expand-btn">›</button>
         </div>
 
         {/* Length */}
-        <div className="panel-section">
+        <div
+          className={`panel-section ${
+            currentTab === "length" ? "highlighted" : ""
+          }`}
+          onClick={() => setCurrentTab("length")}
+        >
           <h3 className="section-title">LENGTH</h3>
           <button className="expand-btn">›</button>
         </div>
 
         {/* Charms */}
-        <div className="panel-section">
+        <div
+          className={`panel-section ${
+            currentTab === "charms" ? "highlighted" : ""
+          }`}
+          onClick={() => setCurrentTab("charms")}
+        >
           <h3 className="section-title">CHARMS</h3>
           <span className="charms-count">0/7 SELECTED</span>
           <button className="expand-btn">›</button>
