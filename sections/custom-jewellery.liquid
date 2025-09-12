@@ -181,20 +181,12 @@
     }
 
 
-.right-panel {
-  height:88vh;
-  width: 320px;
-  background-color: #faf7f5;
-  border-left: 1px solid #e2e2e2;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-}
-
 .panel-section {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   position: relative;
   padding-bottom: 8px;
   border-bottom: 1px solid #eee;
+  cursor: pointer
 }
 
 .section-title {
@@ -260,6 +252,80 @@
   margin-left: 10px;
 }
 
+  .container {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+        height:88vh;
+    }
+
+    .left-panel {
+      background: #f4f0eb;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+.right-panel {
+padding: 20px;
+}
+
+.grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .grid-item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    .label {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #333;
+    }
+
+    /* ✅ Checkmark for selected item */
+    .selected::before {
+      content: "✔";
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 24px;
+      height: 24px;
+      background: white;
+      border-radius: 50%;
+      border: 2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: black;
+    }
+
+.highlighted {
+  background-color: #f0f8ff; /* Light blue background */
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 6px;
+  padding: 10px;
+}
 
 </style>
 
@@ -305,14 +371,60 @@
   <div class="third-screen" >
       <div class="third-screen-section-1" style="background-image: url('{{ section.settings.third_screen_bg_image | image_url }}');">
       </div>
-      <div id="third-screen-section-2" class="third-screen-section-2">
+      <div id="third-screen-section-2" class="third-screen-section-2" >
 
       </div>
   </div>
 
 </div>
+<script id="collections-data" type="application/json">
+[
+  {% for c in collections %}
+    {
+      "title": {{ c.title | json }},
+      "handle": {{ c.handle | json }},
+      "url": {{ c.url | json }},
+      "description": {{ c.description | strip_html | json }},
+      "products_count": {{ c.products_count | json }},
+      "products": [
+        {% for product in c.products %}
+          {
+            "id": {{ product.id | json }},
+            "title": {{ product.title | json }},
+            "handle": {{ product.handle | json }},
+            "url": {{ product.url | json }},
+            "price": {{ product.price | money | json }},
+            "compare_at_price": {{ product.compare_at_price | money | json }},
+            "available": {{ product.available | json }},
+            "vendor": {{ product.vendor | json }},
+            "product_type": {{ product.type | json }},
+            "tags": {{ product.tags | json }},
+            "featured_image": {{ product.featured_image | img_url: '600x' | json }},
+            "images": [
+              {% for img in product.images %}
+                {{ img | img_url: '600x' | json }}{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            ],
+            "variants": [
+              {% for variant in product.variants %}
+                {
+                  "id": {{ variant.id | json }},
+                  "title": {{ variant.title | json }},
+                  "sku": {{ variant.sku | json }},
+                  "price": {{ variant.price | money | json }},
+                  "available": {{ variant.available | json }}
+                }{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            ]
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+</script>
 
-<script src="{{ 'vite-app.js' | asset_url }}"></script>
+<script src="{{ 'vite-app.js' | asset_url }}" ></script>
 
 <script>
  document.addEventListener('DOMContentLoaded', () => {
@@ -323,6 +435,7 @@
     const firstScreen = document.querySelector('.first-screen');
     const secondScreen = document.querySelector('.second-screen')
     const thirdScreen = document.querySelector('.third-screen')
+    const thirdScreenSecondSection = document.getElementById('third-screen-section-2');
 
     // Add a click event listener to the button
     createButton.addEventListener('click', (event) => {
@@ -335,22 +448,24 @@
         const ankletCard = document.getElementById('anklet-card')
         const braceletCard = document.getElementById('bracelet-card')
 
-        function showThirdScreen(){
+        function showThirdScreen(productType){
           secondScreen.style.display = 'none';
           thirdScreen.style.display = 'flex';
+
+          thirdScreenSecondSection.setAttribute('data-product-type', productType); 
         }
 
         necklaceCard.addEventListener('click',(event) => {
           customProduct['product_type'] = 'Necklace'
-          showThirdScreen()
+          showThirdScreen('Necklace')
         })
         ankletCard.addEventListener('click',(event) => {
           customProduct['product_type'] = 'Anklet'
-          showThirdScreen()
+          showThirdScreen('Anklet')
         })
         braceletCard.addEventListener('click',(event) => {
           customProduct['product_type'] = 'Bracelet'
-          showThirdScreen()
+          showThirdScreen('Bracelet')
         })
       }
     });

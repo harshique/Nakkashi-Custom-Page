@@ -1,8 +1,7 @@
-import "./App.css";
 import RightPanel from "./RightPanel.tsx";
 
-function App() {
-  return <RightPanel />;
+function App({ collectionsData }: { collectionsData: any }) {
+  return <RightPanel collectionsData={collectionsData} />;
 }
 
 export default App;
