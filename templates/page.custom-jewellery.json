@@ -19,7 +19,8 @@
         "hero_image": "shopify://shop_images/Story_chain_cutoff.webp",
         "necklace_image": "shopify://shop_images/neclace.jpg",
         "anklet_image": "shopify://shop_images/jewelleytbd.jpg",
-        "bracelet_image": "shopify://shop_images/neclace.jpg"
+        "bracelet_image": "shopify://shop_images/neclace.jpg",
+        "third_screen_bg_image": "shopify://shop_images/Story_chain_cutoff.webp"
       }
     }
   },
