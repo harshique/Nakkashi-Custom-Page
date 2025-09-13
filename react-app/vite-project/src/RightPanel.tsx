@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 const productTypes = [
   {
@@ -16,6 +16,21 @@ const productTypes = [
     label: "BRACELET",
     img: "https://www.astridandmiyu.com/cdn/shop/files/Q1PartB2953_a5059151-0843-45b1-95f7-736df3cce84e.webp?v=1706887315&width=720",
   },
+];
+
+const lengthTypes = [
+  { id: "40cm", label: "Size - 40cm", productType: "necklace" },
+  { id: "45cm", label: "Size - 45cm", productType: "necklace" },
+  { id: "50cm", label: "Size - 50cm", productType: "necklace" },
+  { id: "60cm", label: "Size - 60cm", productType: "necklace" },
+  { id: "22cm", label: "Size - 22cm", productType: "anklet" },
+  { id: "24cm", label: "Size - 24cm", productType: "anklet" },
+  { id: "26cm", label: "Size - 26cm", productType: "anklet" },
+  { id: "28cm", label: "Size - 28cm", productType: "anklet" },
+  { id: "16.5cm", label: "Size - 16.5cm", productType: "bracelet" },
+  { id: "18cm", label: "Size - 18cm", productType: "bracelet" },
+  { id: "19.5cm", label: "Size - 19.5cm", productType: "bracelet" },
+  { id: "21cm", label: "Size - 21cm", productType: "bracelet" },
 ];
 
 const charmsTypes = ["fruits-charms", "motif-charms"];
@@ -36,6 +51,9 @@ const RenderProductTypes = ({
             setCustomProductDetails({
               ...customProductDetails,
               productType: product.id,
+              style: { id: "", title: "" },
+              length: "",
+              charms: [] as any[],
             });
           }}
         >
@@ -67,6 +85,8 @@ const RenderStylesTypes = ({
                 id: product.id,
                 title: product.title,
               },
+              length: "",
+              charms: [] as any[],
             });
           }}
         >
@@ -86,94 +106,37 @@ const RenderLengthTypes = ({
   return (
     <>
       <div className="options-container">
-        <div
-          className={`length-option ${
-            customProductDetails.length === "40cm"
-              ? "length-option-selected"
-              : ""
-          }`}
-          onClick={() =>
-            setCustomProductDetails({
-              ...customProductDetails,
-              length: "40cm",
-            })
-          }
-        >
-          <span className="length-option-label">Size - 40cm</span>
-          <span
-            className={`length-option-circle ${
-              customProductDetails.length === "40cm"
-                ? "length-option-circle"
-                : ""
-            }`}
-          ></span>
-        </div>
-        <div
-          className={`length-option ${
-            customProductDetails.length === "45cm"
-              ? "length-option-selected"
-              : ""
-          }`}
-          onClick={() =>
-            setCustomProductDetails({
-              ...customProductDetails,
-              length: "45cm",
-            })
-          }
-        >
-          <span className="length-option-label">Size - 45cm</span>
-          <span
-            className={`length-option-circle ${
-              customProductDetails.length === "45cm"
-                ? "length-option-circle"
-                : ""
-            }`}
-          ></span>
-        </div>
-        <div
-          className={`length-option ${
-            customProductDetails.length === "50cm"
-              ? "length-option-selected"
-              : ""
-          }`}
-          onClick={() =>
-            setCustomProductDetails({
-              ...customProductDetails,
-              length: "50cm",
-            })
-          }
-        >
-          <span className="length-option-label">Size - 50cm</span>
-          <span
-            className={`length-option-circle ${
-              customProductDetails.length === "50cm"
-                ? "length-option-circle"
-                : ""
-            }`}
-          ></span>
-        </div>
-        <div
-          className={`length-option ${
-            customProductDetails.length === "60cm"
-              ? "length-option-selected"
-              : ""
-          }`}
-          onClick={() =>
-            setCustomProductDetails({
-              ...customProductDetails,
-              length: "60cm",
-            })
-          }
-        >
-          <span className="length-option-label">Size - 60cm</span>
-          <span
-            className={`length-option-circle ${
-              customProductDetails.length === "60cm"
-                ? "length-option-circle"
-                : ""
-            }`}
-          ></span>
-        </div>
+        {lengthTypes
+          .filter(
+            (length) => length.productType === customProductDetails.productType
+          )
+          .map((length: any) => {
+            return (
+              <div
+                className={`length-option ${
+                  customProductDetails.length === length.id
+                    ? "length-option-selected"
+                    : ""
+                }`}
+                onClick={() =>
+                  setCustomProductDetails({
+                    ...customProductDetails,
+                    length: length.id,
+                    charms: [] as any[],
+                  })
+                }
+              >
+                <span className="length-option-label">{length.label}</span>
+                <span
+                  className={`length-option-circle ${
+                    customProductDetails.length === length.id
+                      ? "length-option-circle"
+                      : ""
+                  }`}
+                ></span>
+              </div>
+            );
+          })}
       </div>
     </>
   );
@@ -225,20 +188,68 @@ const RenderCharmsTypes = ({
 
             {openedCharmSections === charmType && (
               <div className="grid-container">
-                {charmsCollection.products.map((product: any) => (
-                  <div className="grid-item" key={product.id}>
-                    <img src={product.images[0]} />
-                    <div className="quantity-selector">
-                      <button className="quantity-btn minus-btn">−</button>
-                      <div className="quantity-display" id="quantity">
-                        0
+                {charmsCollection.products.map((product: any) => {
+                  const isSelected = customProductDetails.charms.findIndex(
+                    (charm: any) => charm.productId === product.id
+                  );
+                  let selectedCount;
+                  if (isSelected !== -1)
+                    selectedCount =
+                      customProductDetails.charms[isSelected].quantity;
+                  else selectedCount = 0;
+                  return (
+                    <div className="grid-item" key={product.id}>
+                      <img src={product.images[0]} />
+                      <div className="quantity-selector">
+                        <button
+                          className="quantity-btn minus-btn"
+                          onClick={() => {
+                            const newCharmsState = customProductDetails.charms;
+                            if (isSelected !== -1) {
+                              newCharmsState[isSelected].quantity = Math.max(
+                                0,
+                                Number(newCharmsState[isSelected].quantity - 1)
+                              );
+                            }
+                            setCustomProductDetails({
+                              ...customProductDetails,
+                              charms: newCharmsState,
+                            });
+                          }}
+                        >
+                          −
+                        </button>
+                        <div className="quantity-display" id="quantity">
+                          {selectedCount}
+                        </div>
+                        <button
+                          className="quantity-btn plus-btn"
+                          onClick={() => {
+                            const newCharmsState = customProductDetails.charms;
+                            if (isSelected !== -1) {
+                              newCharmsState[isSelected].quantity = Number(
+                                newCharmsState[isSelected].quantity + 1
+                              );
+                            } else {
+                              newCharmsState.push({
+                                productId: product.id,
+                                quantity: 1,
+                              });
+                            }
+                            setCustomProductDetails({
+                              ...customProductDetails,
+                              charms: newCharmsState,
+                            });
+                          }}
+                        >
+                          +
+                        </button>
                       </div>
-                      <button className="quantity-btn plus-btn">+</button>
+                      <div className="label">{product.title}</div>
+                      <div className="price">{product.price}</div>
                     </div>
-                    <div className="label">{product.title}</div>
-                    <div className="price">{product.price}</div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </div>
@@ -261,6 +272,17 @@ export default function RightPanel({
     length: "",
     charms: [] as any[],
   });
+
+  console.log("customProductDetails", customProductDetails);
+
+  const totalSelectedCharms = useMemo(() => {
+    return customProductDetails.charms.reduce(
+      (prev, cur) => {
+        return Number(prev + cur.quantity);
+      },
+      [0]
+    );
+  }, [customProductDetails]);
 
   const ref = useRef(document.getElementById("third-screen-section-2"));
 
@@ -325,8 +347,11 @@ export default function RightPanel({
         <div
           className={`panel-section ${
             currentTab === "length" ? "highlighted" : ""
-          }`}
-          onClick={() => setCurrentTab("length")}
+          } ${!customProductDetails.style.id ? "panel-section-disabled" : ""}`}
+          onClick={() => {
+            if (!customProductDetails.style.id) return;
+            setCurrentTab("length");
+          }}
         >
           <h3 className="section-title">LENGTH</h3>
           {customProductDetails.length && customProductDetails.length}
@@ -337,11 +362,14 @@ export default function RightPanel({
         <div
           className={`panel-section ${
             currentTab === "charms" ? "highlighted" : ""
-          }`}
-          onClick={() => setCurrentTab("charms")}
+          } ${!customProductDetails.length ? "panel-section-disabled" : ""} `}
+          onClick={() => {
+            if (!customProductDetails.length) return;
+            setCurrentTab("charms");
+          }}
         >
           <h3 className="section-title">CHARMS</h3>
-          <span className="charms-count">0/7 SELECTED</span>
+          <span className="charms-count">{totalSelectedCharms}/7 SELECTED</span>
           <button className="expand-btn">›</button>
         </div>
       </div>
