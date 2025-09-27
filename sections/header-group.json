@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -8,14 +17,14 @@
         "item_dGj4GU": {
           "type": "item",
           "settings": {
-            "message": "Free shipping for all orders from $60+",
+            "message": "Free Shipping on all prepaid order",
             "message_link": ""
           }
         },
         "item_6Ycmkw": {
           "type": "item",
           "settings": {
-            "message": "Free shipping for all orders from $60+",
+            "message": "Free Shipping on all prepaid order",
             "message_link": ""
           }
         }
@@ -29,10 +38,10 @@
       ],
       "settings": {
         "container": "container",
-        "color_scheme": "badge-sale",
+        "color_scheme": "dark",
         "show_announcement": true,
-        "homepage_only": true,
-        "show_close": true,
+        "homepage_only": false,
+        "show_close": false,
         "show_divider": false,
         "show_nav": true,
         "autorotate": true,
@@ -44,6 +53,7 @@
       "blocks": {
         "5e153016-a9d7-46c9-a10e-30d16446793d": {
           "type": "topbar",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "show_divider": true,
@@ -55,7 +65,7 @@
             "show_currency_switcher": false,
             "show_country_selector": true,
             "show_language_switcher": true,
-            "alert_message": "<span>Open Doors To A World Of Fashion  |  <a class=\"m-link-underline\" href=\"#\">Discover More<\/a><span><\/span><\/span>"
+            "alert_message": "<span>Open Doors To A World Of Fashion  |  <a class=\"m-link-underline\" href=\"#\">Discover More</a><span></span></span>"
           }
         }
       },
@@ -69,18 +79,19 @@
       "settings": {
         "color_scheme": "",
         "color_scheme_menu": "",
-        "header_design": "logo-center-menu-left",
+        "header_design": "logo-left-menu-center",
         "container": "container-fluid",
         "sticky_header": "on_scroll_up",
         "transparent_on_top": false,
         "transparent_text_color": "#ffffff",
-        "logo_text": "MINIMOG",
+        "logo_text": "Nakkasshi",
         "logo_svg": "",
         "logo_mobile_svg": "",
         "logo_transparent_svg": "",
         "logo_max_width": 145,
         "sticky_logo_max_width": 145,
         "mobile_logo_max_width": 110,
+        "main_menu": "main-menu",
         "secondary_menu": "",
         "mobile_menu": "",
         "uppercase_parent_level": false,
