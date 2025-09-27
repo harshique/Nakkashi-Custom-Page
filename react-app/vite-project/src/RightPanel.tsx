@@ -273,6 +273,34 @@ export default function RightPanel({
     charms: [] as any[],
   });
 
+  const totalCost = useMemo(() => {
+    let total = 0;
+    if (customProductDetails.style.id) {
+      const styleProduct = collectionsData
+        .find((col: any) => col.handle === "necklace-chain-styles")
+        ?.products.find(
+          (prod: any) => prod.id === customProductDetails.style.id
+        );
+      if (styleProduct)
+        total += parseFloat(
+          styleProduct.price.replace(/[^\d.]/g, "").replace(/^\./, "")
+        );
+      for (const charm of customProductDetails.charms) {
+        const charmProduct = collectionsData
+          .flatMap((col: any) => col.products)
+          .find((prod: any) => prod.id === charm.productId);
+        console.log("charmProduct", charmProduct);
+        if (charmProduct)
+          total +=
+            parseFloat(
+              charmProduct.price.replace(/[^\d.]/g, "").replace(/^\./, "")
+            ) * charm.quantity;
+      }
+
+      return total;
+    }
+  }, [JSON.stringify(customProductDetails)]);
+
   console.log("customProductDetails", customProductDetails);
 
   const totalSelectedCharms = useMemo(() => {
@@ -316,8 +344,56 @@ export default function RightPanel({
 
   console.log("customProductDetails", customProductDetails);
 
+  const isStyleSelected = customProductDetails.style.id !== "";
+  const isCharmsSelected = totalSelectedCharms > 0;
+
+  const handleAddToCart = () => {
+    const styleProduct = collectionsData
+      .find((col: any) => col.handle === "necklace-chain-styles")
+      ?.products.find((prod: any) => prod.id === customProductDetails.style.id);
+
+    if (!styleProduct) return;
+
+    const lineItems = [
+      {
+        id: styleProduct.variants[0].id,
+        quantity: 1,
+      },
+      ...customProductDetails.charms
+        .filter((charm) => charm.quantity > 0)
+        .map((charm) => {
+          const charmProduct = collectionsData
+            .flatMap((col: any) => col.products)
+            .find((prod: any) => prod.id === charm.productId);
+          if (!charmProduct) return null;
+          return {
+            id: charmProduct.variants[0].id,
+            quantity: charm.quantity,
+          };
+        })
+        .filter((item) => item !== null),
+    ];
+
+    fetch("/cart/add.js", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        items: lineItems,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        window.location.href = "/cart";
+      })
+      .catch((error) => {
+        console.log("error", error);
+      });
+  };
+
   return (
-    <div className="container">
+    <div className="main-container">
       <div className="left-panel">
         {/* Product Type */}
         <div
@@ -400,6 +476,12 @@ export default function RightPanel({
             customProductDetails={customProductDetails}
             setCustomProductDetails={setCustomProductDetails}
           />
+        )}
+
+        {isCharmsSelected && (
+          <button className="confirm-button" onClick={handleAddToCart}>
+            Confirm Order - Rs. {totalCost}
+          </button>
         )}
       </div>
     </div>
