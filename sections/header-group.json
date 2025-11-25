@@ -17,7 +17,7 @@
         "item_dGj4GU": {
           "type": "item",
           "settings": {
-            "message": "Free Shipping on all prepaid order",
+            "message": "New Fresh Drop coming soon STAY TURNED!",
             "message_link": ""
           }
         },
@@ -38,7 +38,7 @@
       ],
       "settings": {
         "container": "container",
-        "color_scheme": "dark",
+        "color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
         "show_announcement": true,
         "homepage_only": false,
         "show_close": false,
