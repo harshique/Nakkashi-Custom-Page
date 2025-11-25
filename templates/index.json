@@ -449,7 +449,7 @@
         "mobile_disable_slider": false,
         "use_scroll_mobile": true,
         "item_gap_mobile": 16,
-        "padding_top": 20,
+        "padding_top": 36,
         "padding_bottom": 48,
         "custom_class": "",
         "animations": "inherit"
