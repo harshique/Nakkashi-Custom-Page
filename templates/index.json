@@ -224,7 +224,7 @@
             "content_alignment": "left",
             "text_size": "medium",
             "text_color": "black",
-            "title": "GOLD AND SILVER MAKE YOU QUIVER!!",
+            "title": "GOLD AND SILVER  MAKE YOU QUIVER!!",
             "subtitle": "",
             "button_label": "Shop now",
             "button_style": "m-button--primary",
@@ -235,7 +235,7 @@
         "item_DYLrgw": {
           "type": "item",
           "settings": {
-            "color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
+            "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
             "image": "shopify://shop_images/masonry-2.webp",
             "link": "",
             "content_position": "center_center",
@@ -253,7 +253,7 @@
         "item_i3TcYJ": {
           "type": "item",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
             "image": "shopify://shop_images/masonry-3.webp",
             "link": "",
             "content_position": "center_center",
