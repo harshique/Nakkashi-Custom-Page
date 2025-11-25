@@ -300,14 +300,14 @@
         "162251092958fcda7c-0": {
           "type": "tab",
           "settings": {
-            "title": "best sellers",
-            "collection": "best-sellers-fashion-2024"
+            "title": "Best Sellers",
+            "collection": "bracelets"
           }
         },
         "162251092958fcda7c-1": {
           "type": "tab",
           "settings": {
-            "title": "new arrivals",
+            "title": "New Arrivals",
             "collection": "new-arrivals-fashion-2024"
           }
         }
@@ -320,14 +320,14 @@
         ".m-section__header {--m-section-header-spacing-bottom: 60px;}"
       ],
       "settings": {
-        "heading": "You are in",
+        "heading": "Shop the New Arrivals",
         "heading_size": "h3",
         "subheading": "",
         "description": "",
         "header_alignment": "center",
         "container": "container-fluid",
-        "color_scheme": "",
-        "tab_header": "select",
+        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
+        "tab_header": "horizontal",
         "limit": 10,
         "show_button": true,
         "button_type": "link",
