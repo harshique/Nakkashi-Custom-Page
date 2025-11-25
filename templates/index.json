@@ -123,9 +123,10 @@
         "iconbox_7tyhQY": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/free-shipping_1.png",
             "image_by_url": "",
-            "title": "Standard Shipping Worldwide",
-            "description": "<p>Tell about your service.</p>",
+            "title": "Fast Shipping",
+            "description": "<p>We ship your package within 24-48 hours.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
@@ -136,9 +137,10 @@
         "iconbox_ahcBWw": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/secure-payment_2.png",
             "image_by_url": "",
-            "title": "100% Safe & Secure Checkout",
-            "description": "<p>Tell about your service.</p>",
+            "title": "Safe & Secure Checkout",
+            "description": "<p>Secure checkout with our payments methods.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
@@ -149,9 +151,10 @@
         "iconbox_9Kjr4Y": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/question.png",
             "image_by_url": "",
-            "title": "24/7 online support",
-            "description": "<p>Tell about your service.</p>",
+            "title": "Get in Touch",
+            "description": "<p>Our customer support team is available from 10:00 a.m. to 6:00 p.m.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
@@ -162,9 +165,10 @@
         "iconbox_PdGnzH": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/guarantee.png",
             "image_by_url": "",
-            "title": "This is heading text",
-            "description": "<p>Tell about your service.</p>",
+            "title": "Quality Assured",
+            "description": "<p>You can trust us for 100% quality, every time!</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
