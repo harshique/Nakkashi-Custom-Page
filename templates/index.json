@@ -117,6 +117,96 @@
         "animations": "inherit"
       }
     },
+    "icon_box_ExidAT": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_7tyhQY": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Standard Shipping Worldwide",
+            "description": "<p>Tell about your service.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_ahcBWw": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "100% Safe & Secure Checkout",
+            "description": "<p>Tell about your service.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_9Kjr4Y": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "24/7 online support",
+            "description": "<p>Tell about your service.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_PdGnzH": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "This is heading text",
+            "description": "<p>Tell about your service.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_7tyhQY",
+        "iconbox_ahcBWw",
+        "iconbox_9Kjr4Y",
+        "iconbox_PdGnzH"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
+        "item_per_row": 4,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
+        "card_style": "horizontal",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "16225316461d1cff80": {
       "type": "collection-list",
       "blocks": {
@@ -173,7 +263,7 @@
         "subheading": "",
         "description": "",
         "header_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "footer",
         "container": "container-fluid",
         "layout": "grid",
         "expanded": true,
@@ -1219,6 +1309,7 @@
   },
   "order": [
     "1621243260e1af0c20",
+    "icon_box_ExidAT",
     "16225316461d1cff80",
     "162251092958fcda7c",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
