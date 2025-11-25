@@ -211,6 +211,134 @@
         "animations": "inherit"
       }
     },
+    "16225316461d1cff80": {
+      "type": "collection-list",
+      "blocks": {
+        "65e38235-f03b-43c9-8590-38c9c656e51c": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "bracelets",
+            "title": "",
+            "item_image": "shopify://shop_images/Bracelet_3_64b139c4-f244-4927-b3e8-83ac24b5a2ce.webp"
+          }
+        },
+        "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "earrings",
+            "title": "",
+            "item_image": "shopify://shop_images/Earrings_3_ed9e9033-a5ea-4078-8512-ceb38610d296.webp"
+          }
+        },
+        "16225316461d1cff80-1": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "rings",
+            "title": "",
+            "item_image": "shopify://shop_images/Rings_3_6533ac4a-449a-4f35-9113-3d645faefd95.webp"
+          }
+        },
+        "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "necklace",
+            "title": "",
+            "item_image": "shopify://shop_images/Necklace_3_bdb451b0-0be3-4bca-9ecf-b55a20368585.webp"
+          }
+        },
+        "12985deb-0775-45ce-80f6-6be7f3150a91": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "accessories-bags",
+            "title": "",
+            "item_image": "shopify://shop_images/mangalsutra_3_9fb1859f-1120-48c6-8cfc-e3094f894274.webp"
+          }
+        }
+      },
+      "block_order": [
+        "65e38235-f03b-43c9-8590-38c9c656e51c",
+        "694c01c9-a95f-4c09-9cf0-ec75f0131e98",
+        "16225316461d1cff80-1",
+        "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec",
+        "12985deb-0775-45ce-80f6-6be7f3150a91"
+      ],
+      "custom_css": [
+        ".m-collection-card__title {font-weight: 400;}",
+        "@media (max-width: 767px) {.m-slider-controls[class*=\"-bottom-left\"], .m-section__header {text-align: center; }}"
+      ],
+      "settings": {
+        "heading": "Shop by Categories",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "color_scheme": "footer",
+        "container": "container-fluid",
+        "layout": "grid",
+        "expanded": false,
+        "card_style": "standard",
+        "text_alignment": "center",
+        "hover_effect": "scaling-up",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": false,
+        "items_per_row": 5,
+        "item_gap": 18,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 4,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "mobile_gap": 16,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 74,
+        "padding_bottom": 0,
+        "custom_class": "sf-home__collection-list",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_RFqLQP": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Bracelet Collection",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
+        "container": "container-fluid",
+        "collection": "bracelets",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 8,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 36,
+        "padding_bottom": 48,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "image_with_text_1_tF7HnG": {
       "type": "image-with-text-1",
       "blocks": {
@@ -331,126 +459,37 @@
         "animations": "inherit"
       }
     },
-    "16225316461d1cff80": {
-      "type": "collection-list",
-      "blocks": {
-        "65e38235-f03b-43c9-8590-38c9c656e51c": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "sunglasses",
-            "title": "Glasses"
-          }
-        },
-        "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "knit-wears",
-            "title": "Knit Wears"
-          }
-        },
-        "16225316461d1cff80-1": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "women-bags",
-            "title": "Summer Bags"
-          }
-        },
-        "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "sneakers",
-            "title": "Sneakers"
-          }
-        },
-        "12985deb-0775-45ce-80f6-6be7f3150a91": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "accessories-bags",
-            "title": "Accessories"
-          }
-        }
-      },
-      "block_order": [
-        "65e38235-f03b-43c9-8590-38c9c656e51c",
-        "694c01c9-a95f-4c09-9cf0-ec75f0131e98",
-        "16225316461d1cff80-1",
-        "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec",
-        "12985deb-0775-45ce-80f6-6be7f3150a91"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".m-collection-card__title {font-weight: 400;}",
-        "@media (max-width: 767px) {.m-slider-controls[class*=\"-bottom-left\"], .m-section__header {text-align: center; }}"
-      ],
+    "image_with_text_9b3jdm": {
+      "type": "image-with-text",
+      "name": "Image with text",
       "settings": {
-        "heading": "Shop by Categories",
+        "heading": "",
         "heading_size": "h3",
         "subheading": "",
-        "description": "",
-        "header_alignment": "left",
-        "color_scheme": "footer",
         "container": "container-fluid",
-        "layout": "grid",
-        "expanded": true,
-        "card_style": "inside",
-        "text_alignment": "left",
-        "hover_effect": "scaling-up",
-        "show_product_count": true,
-        "count_inline_title": true,
-        "image_rounded": false,
-        "items_per_row": 3,
-        "item_gap": 40,
-        "enable_slider": true,
-        "show_pagination": true,
-        "show_navigation": true,
-        "autorotate": false,
-        "autorotate_speed": 4,
-        "mobile_disable_slider": false,
-        "use_scroll_mobile": true,
-        "mobile_gap": 16,
-        "hidden_slide_control_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "custom_class": "sf-home__collection-list",
-        "animations": "inherit"
-      }
-    },
-    "featured_collection_RFqLQP": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "heading": "Bracelet Collection",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
-        "container": "container-fluid",
-        "collection": "bracelets",
-        "enable_flashsale": false,
-        "show_countdown": false,
-        "product_to_show": 8,
-        "items_per_row": 4,
-        "item_gap": 30,
-        "pcard_layout": "",
-        "pcard_image_ratio": "",
-        "show_vendor": false,
-        "hide_title": false,
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "show_button_on_header": false,
-        "button_type": "link",
-        "button_text": "",
-        "button_style": "m-button--primary",
+        "color_scheme": "",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "layout": "left",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "Image with text",
+        "sub_title": "",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Shop Collection",
+        "button_link": "",
+        "button_style": "m-button--link",
         "button_size": "",
-        "infinite_load": false,
-        "max_page_load": 3,
-        "mobile_disable_slider": false,
-        "use_scroll_mobile": true,
-        "item_gap_mobile": 16,
-        "padding_top": 36,
-        "padding_bottom": 48,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "custom_class": "",
         "animations": "inherit"
       }
@@ -1585,9 +1624,10 @@
   "order": [
     "1621243260e1af0c20",
     "icon_box_ExidAT",
-    "image_with_text_1_tF7HnG",
     "16225316461d1cff80",
     "featured_collection_RFqLQP",
+    "image_with_text_1_tF7HnG",
+    "image_with_text_9b3jdm",
     "slider_wwqACe",
     "162251092958fcda7c",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
