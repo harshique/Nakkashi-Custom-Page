@@ -415,6 +415,46 @@
         "animations": "inherit"
       }
     },
+    "featured_collection_RFqLQP": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Bracelet Collection",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
+        "container": "container-fluid",
+        "collection": "bracelets",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 8,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "Shop more",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "162251092958fcda7c": {
       "type": "product-tabs",
       "blocks": {
@@ -512,6 +552,7 @@
         "template--15977492021425__7ea56e8d-5794-4708-8812-8ee9604a3a21-1678440566c64de1a8-1",
         "5c5877d5-05b2-4a50-81e3-78c3f6d0d833"
       ],
+      "disabled": true,
       "custom_css": [
         ".container-full {padding-left: 0; padding-right: 0;}",
         ".m-button--fixed {border-color: #e2e2e2; padding: 24px 0; margin-bottom: 24px;}",
@@ -1437,6 +1478,7 @@
     "icon_box_ExidAT",
     "image_with_text_1_tF7HnG",
     "16225316461d1cff80",
+    "featured_collection_RFqLQP",
     "162251092958fcda7c",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "lookbook_MB4Mr4",
