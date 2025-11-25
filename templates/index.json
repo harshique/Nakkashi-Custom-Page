@@ -351,6 +351,124 @@
         "animations": "inherit"
       }
     },
+    "image_with_text_1_tF7HnG": {
+      "type": "image-with-text-1",
+      "blocks": {
+        "item_zCUwxA": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
+            "image": "shopify://shop_images/masonry-1.webp",
+            "link": "",
+            "content_position": "top_left",
+            "content_alignment": "left",
+            "text_size": "large",
+            "text_color": "black",
+            "title": "GOLD AND SILVER MAKE YOU QUIVER!!",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_DYLrgw": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_i3TcYJ": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_nTUGGA": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_UAHRCw": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        }
+      },
+      "block_order": [
+        "item_zCUwxA",
+        "item_DYLrgw",
+        "item_i3TcYJ",
+        "item_nTUGGA",
+        "item_UAHRCw"
+      ],
+      "name": "Image cards",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
+        "layout": "layout_1",
+        "gap": 30,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "padding_top": 50,
+        "padding_bottom": 46,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
       "type": "custom-content",
       "blocks": {
@@ -1316,6 +1434,7 @@
     "icon_box_ExidAT",
     "16225316461d1cff80",
     "162251092958fcda7c",
+    "image_with_text_1_tF7HnG",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "lookbook_MB4Mr4",
     "scrolling_promotion_jjrFyf",
