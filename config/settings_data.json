@@ -29,7 +29,7 @@
     "animations": "fade-in-up",
     "pcard_layout": "1",
     "pcard_alignment": "left",
-    "pcard_image_ratio": "3/4",
+    "pcard_image_ratio": "1/1",
     "show_compare_button": false,
     "show_badge_sale": true,
     "show_vendor": false,
