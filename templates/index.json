@@ -42,6 +42,7 @@
         },
         "1621243260e1af0c20-1": {
           "type": "slider_item",
+          "disabled": true,
           "settings": {
             "content_in_container": false,
             "content_position": "left middle",
@@ -69,6 +70,7 @@
         },
         "1621243260e1af0c20-2": {
           "type": "slider_item",
+          "disabled": true,
           "settings": {
             "content_in_container": false,
             "content_position": "left middle",
