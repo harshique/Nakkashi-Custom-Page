@@ -267,11 +267,11 @@
         "@media (max-width: 767px) {.m-slider-controls[class*=\"-bottom-left\"], .m-section__header {text-align: center; }}"
       ],
       "settings": {
-        "heading": "Shop by Categories",
+        "heading": "EVERYDAY DEMIFINE JEWELLERY",
         "heading_size": "h3",
         "subheading": "",
         "description": "",
-        "header_alignment": "left",
+        "header_alignment": "center",
         "color_scheme": "footer",
         "container": "container-fluid",
         "layout": "grid",
@@ -283,7 +283,7 @@
         "count_inline_title": false,
         "image_rounded": false,
         "items_per_row": 5,
-        "item_gap": 18,
+        "item_gap": 0,
         "enable_slider": false,
         "show_pagination": false,
         "show_navigation": false,
