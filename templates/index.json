@@ -294,7 +294,7 @@
         "mobile_gap": 16,
         "hidden_slide_control_mobile": false,
         "padding_top": 74,
-        "padding_bottom": 0,
+        "padding_bottom": 38,
         "custom_class": "sf-home__collection-list",
         "animations": "inherit"
       }
@@ -333,7 +333,7 @@
         "mobile_disable_slider": false,
         "use_scroll_mobile": true,
         "item_gap_mobile": 16,
-        "padding_top": 36,
+        "padding_top": 50,
         "padding_bottom": 48,
         "custom_class": "",
         "animations": "inherit"
