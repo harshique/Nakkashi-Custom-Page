@@ -798,6 +798,80 @@
         "enable_bg_zoom_effect": true
       }
     },
+    "custom_content_FXR3Mn": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_gKBMJU": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/image_829.webp",
+            "link": "",
+            "title": "Brilliance Awaits",
+            "subtitle": "DISCOVER YOUR SPARKLE",
+            "description": "",
+            "button_label": "SHOP NOW",
+            "button_style": "m-button--link",
+            "button_size": "m-button--small",
+            "button_fixed": true,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_khK4JV": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/image_830_c1427037-0c9c-4eff-b772-6c5be9090475.webp",
+            "link": "",
+            "title": "Sparkle & Shine",
+            "subtitle": "ELEGANCE, REDEFINED",
+            "description": "",
+            "button_label": "SHOP NOW",
+            "button_style": "m-button--link",
+            "button_size": "m-button--small",
+            "button_fixed": true,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_gKBMJU",
+        "image_card_khK4JV"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "heading": "Custom content",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "content_color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "custom_class": ""
+      }
+    },
     "scrolling_promotion_jjrFyf": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -1354,6 +1428,7 @@
     "162251092958fcda7c",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "lookbook_MB4Mr4",
+    "custom_content_FXR3Mn",
     "scrolling_promotion_jjrFyf",
     "collection_tabs_QE4TLj",
     "custom_content_hh6hmV",
