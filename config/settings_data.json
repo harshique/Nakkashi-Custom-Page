@@ -30,6 +30,7 @@
     "pcard_layout": "2",
     "pcard_alignment": "left",
     "pcard_image_ratio": "1/1",
+    "pcard_option_design": "dropdown",
     "show_compare_button": false,
     "show_badge_sale": true,
     "show_vendor": false,

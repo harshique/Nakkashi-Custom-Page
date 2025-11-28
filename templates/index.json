@@ -1032,6 +1032,57 @@
         "custom_class": ""
       }
     },
+    "featured_collection_banner_rGXtY9": {
+      "type": "featured-collection-banner",
+      "blocks": {
+        "image_card_XBMKQr": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-081e13a6-5875-4dd1-a764-8e623d95ed07",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify://shop_images/pexels-cottonbro-4974405_fbc4bb51-6bb8-4245-bb41-ccebaae534b6.webp",
+            "link": "",
+            "subtitle": "",
+            "title": "",
+            "button_label": "",
+            "button_style": "m-button--link",
+            "button_size": "m-button--small",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_XBMKQr"
+      ],
+      "name": "Product list banner",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "container": "container-fluid",
+        "collection": "bracelets",
+        "product_to_show": 8,
+        "item_gap": 30,
+        "row_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "use_scroll_mobile": false,
+        "item_gap_mobile": 16,
+        "row_gap_mobile": 16,
+        "padding_top": 48,
+        "padding_bottom": 44,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "collection_tabs_QE4TLj": {
       "type": "collection-tabs",
       "blocks": {
@@ -1512,6 +1563,7 @@
     "lookbook_MB4Mr4",
     "scrolling_promotion_jjrFyf",
     "custom_content_d448Cp",
+    "featured_collection_banner_rGXtY9",
     "collection_tabs_QE4TLj",
     "custom_content_hh6hmV",
     "collection_list_tjXYY7",
