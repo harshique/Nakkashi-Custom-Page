@@ -730,8 +730,8 @@
         "mobile_disable_slider": false,
         "use_scroll_mobile": true,
         "item_gap_mobile": 16,
-        "padding_top": 100,
-        "padding_bottom": 10,
+        "padding_top": 56,
+        "padding_bottom": 56,
         "custom_class": "sf-home__product-tab",
         "animations": "inherit"
       }
@@ -937,6 +937,7 @@
         "image_YkTdm3",
         "announcement_JfYdTK"
       ],
+      "disabled": true,
       "custom_css": [
         ".m-scrolling-promotion-section {border-width: 1px 0 1px 0; border-color: rgb(var(--color-border));}",
         "@media (max-width: 767px) {.m-promotion__text {font-size: 30px; } .m-promotion__item img {--image-height: 70px; } .m-section-py {padding-top: 15px; padding-bottom: 15px; }}"
@@ -1019,15 +1020,15 @@
         "description": "",
         "header_alignment": "center",
         "container": "container-fluid",
-        "color_scheme": "scheme-081e13a6-5875-4dd1-a764-8e623d95ed07",
-        "content_color_scheme": "scheme-081e13a6-5875-4dd1-a764-8e623d95ed07",
+        "color_scheme": "scheme-dd049ec9-13ab-4965-80ae-07e2e78a6c40",
+        "content_color_scheme": "scheme-dd049ec9-13ab-4965-80ae-07e2e78a6c40",
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "gap": 30,
         "gap_mobile": 16,
         "use_scroll_mobile": false,
-        "padding_top": 52,
-        "padding_bottom": 54,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "custom_class": ""
       }
     },
