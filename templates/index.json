@@ -1299,6 +1299,15 @@
             "text": "<p>This snuggly soft Cloud Relaxed Cardigan serves a relaxed fit, with saddle shoulders—where the armhole seams curve towards the neckline so that the sleeve seamlessly hugs your shoulder</p>"
           }
         },
+        "collection_fHQrBe": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "heading_size": "h4",
+            "text": ""
+          }
+        },
         "collection_EhyPJ6": {
           "type": "collection",
           "settings": {
@@ -1322,6 +1331,7 @@
       },
       "block_order": [
         "collection_Yy3bMf",
+        "collection_fHQrBe",
         "collection_EhyPJ6",
         "collection_PEi4at"
       ],
@@ -1376,145 +1386,84 @@
         "enable_bg_zoom_effect": true
       }
     },
-    "collection_list_tjXYY7": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_block_jRJk76": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "shirts",
-            "title": "Top"
-          }
-        },
-        "collection_block_F6rPLj": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "shirts",
-            "title": "Shirts"
-          }
-        },
-        "collection_block_rFmir7": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "women-sunglasses",
-            "title": "Sunglasses"
-          }
-        },
-        "collection_block_YXwFjp": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "shorts",
-            "title": "Shorts"
-          }
-        },
-        "collection_block_pYgiyF": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "accessories-bags",
-            "title": "Leather Bags"
-          }
-        },
-        "collection_block_i7CRfm": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "sandals",
-            "title": "Sandals"
-          }
-        }
-      },
-      "block_order": [
-        "collection_block_jRJk76",
-        "collection_block_F6rPLj",
-        "collection_block_rFmir7",
-        "collection_block_YXwFjp",
-        "collection_block_pYgiyF",
-        "collection_block_i7CRfm"
-      ],
-      "custom_css": [
-        ".m-collection-list {--mobile-column-width: 40vw;}",
-        ".m-collection-card__image {max-width: 140px; margin: 0 auto;}",
-        ".m-collection-card__title {font-size: 18px;}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
-        "container": "container-fluid",
-        "layout": "grid",
-        "expanded": true,
-        "card_style": "standard",
-        "text_alignment": "center",
-        "hover_effect": "scaling-up",
-        "show_product_count": true,
-        "count_inline_title": true,
-        "image_rounded": true,
-        "items_per_row": 6,
-        "item_gap": 0,
-        "enable_slider": false,
-        "show_pagination": false,
-        "show_navigation": false,
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "mobile_disable_slider": false,
-        "use_scroll_mobile": true,
-        "mobile_gap": 16,
-        "hidden_slide_control_mobile": false,
-        "padding_top": 58,
-        "padding_bottom": 44,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
     "custom_content_KiFzqG": {
       "type": "custom-content",
       "blocks": {
-        "image_comparison_fRB8LR": {
-          "type": "image_comparison",
+        "image_card_EDNFN6": {
+          "type": "image_card",
           "settings": {
-            "width": "50%",
-            "product": "",
-            "subtitle": "",
-            "title": "",
-            "text": "",
-            "text_size": "medium",
+            "width": "33%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
             "content_alignment": "left",
-            "text_color": "black",
-            "layout": "horizontal",
-            "image_height": "adapt",
-            "before_heading": "Before",
-            "after_heading": "After",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/cate-10.webp",
+            "link": "",
+            "title": "RINGS",
+            "subtitle": "",
+            "description": "",
+            "button_label": "SHOP NOW",
+            "button_style": "m-button--link",
+            "button_size": "m-button--small",
+            "button_fixed": false,
+            "use_content_above": false,
             "block_custom_class": "",
             "animations": "inherit"
           }
         },
-        "text_ADAEHz": {
-          "type": "text",
+        "image_card_miRAqR": {
+          "type": "image_card",
           "settings": {
-            "title": "Layer up with <br>\npieces designed",
-            "subheading": "Mix & Match",
-            "text": "<p>Here is your chance to upgrade your wardrobe <br/>with a variation of styles and fits that are both.</p>",
-            "width": "50%",
-            "alignment": "center",
-            "align_text": "center",
-            "text_size": "large",
-            "text_color": "inherit",
-            "button_label": "Shop Mix & Match",
-            "button_link": "",
-            "button_style": "m-button--secondary",
+            "width": "33%",
+            "color_scheme": "",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/cate-9.webp",
+            "link": "",
+            "title": "NECKLACE",
+            "subtitle": "",
+            "description": "",
+            "button_label": "SHOP NOW",
+            "button_style": "m-button--link",
+            "button_size": "m-button--small",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_q8g8Xn": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "color_scheme": "scheme-081e13a6-5875-4dd1-a764-8e623d95ed07",
+            "content_position": "bottom_left",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/cate-8.webp",
+            "link": "",
+            "title": "EARRINGS",
+            "subtitle": "",
+            "description": "",
+            "button_label": "SHOP NOW",
+            "button_style": "m-button--link",
             "button_size": "",
+            "button_fixed": false,
+            "use_content_above": false,
             "block_custom_class": "",
             "animations": "inherit"
           }
         }
       },
       "block_order": [
-        "image_comparison_fRB8LR",
-        "text_ADAEHz"
+        "image_card_EDNFN6",
+        "image_card_miRAqR",
+        "image_card_q8g8Xn"
       ],
-      "disabled": true,
       "custom_css": [
         ".m-image-comparison__heading {box-shadow: none; border-radius: 5px; padding: 5px 12px; letter-spacing: 0; min-height: 34px;}",
         ".m-richtext__description {font-size: 16px;}",
@@ -1522,18 +1471,18 @@
         "@media (max-width: 767px) {.m-image-comparison__heading, .m-richtext__description br {display: none; } .m-custom-content__wrapper {flex-direction: column-reverse; } .m-custom-content__block {padding: 0 15px; }}"
       ],
       "settings": {
-        "heading": "",
-        "heading_size": "h3",
+        "heading": "NEW IN",
+        "heading_size": "h2",
         "subheading": "",
         "description": "",
         "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "",
-        "content_color_scheme": "",
+        "container": "w-full",
+        "color_scheme": "scheme-081e13a6-5875-4dd1-a764-8e623d95ed07",
+        "content_color_scheme": "scheme-081e13a6-5875-4dd1-a764-8e623d95ed07",
         "enable_parallax": false,
         "parallax_direction": "vertical",
-        "gap": 0,
-        "gap_mobile": 48,
+        "gap": 15,
+        "gap_mobile": 23,
         "use_scroll_mobile": false,
         "padding_top": 100,
         "padding_bottom": 100,
@@ -1757,7 +1706,6 @@
     "featured_collection_banner_rGXtY9",
     "collection_tabs_QE4TLj",
     "image_with_text_2_YhcckA",
-    "collection_list_tjXYY7",
     "custom_content_KiFzqG",
     "testimonials_pnyUnX",
     "16225125199f82d8fe"
