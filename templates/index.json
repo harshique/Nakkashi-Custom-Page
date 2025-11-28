@@ -1220,8 +1220,8 @@
         "description": "",
         "header_alignment": "center",
         "container": "container-fluid",
-        "color_scheme": "",
-        "content_color_scheme": "",
+        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "content_color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "gap": 30,
@@ -1297,7 +1297,7 @@
         "subheading": "",
         "description": "",
         "header_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
         "container": "container-fluid",
         "layout": "grid",
         "expanded": true,
@@ -1318,8 +1318,8 @@
         "use_scroll_mobile": true,
         "mobile_gap": 16,
         "hidden_slide_control_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 0,
+        "padding_top": 58,
+        "padding_bottom": 44,
         "custom_class": "",
         "animations": "inherit"
       }
@@ -1370,6 +1370,7 @@
         "image_comparison_fRB8LR",
         "text_ADAEHz"
       ],
+      "disabled": true,
       "custom_css": [
         ".m-image-comparison__heading {box-shadow: none; border-radius: 5px; padding: 5px 12px; letter-spacing: 0; min-height: 34px;}",
         ".m-richtext__description {font-size: 16px;}",
