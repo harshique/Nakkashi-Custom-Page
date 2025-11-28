@@ -818,7 +818,7 @@
             "button_label": "SHOP NOW",
             "button_style": "m-button--link",
             "button_size": "m-button--small",
-            "button_fixed": true,
+            "button_fixed": false,
             "use_content_above": false,
             "block_custom_class": "",
             "animations": "inherit"
@@ -841,7 +841,7 @@
             "button_label": "SHOP NOW",
             "button_style": "m-button--link",
             "button_size": "m-button--small",
-            "button_fixed": true,
+            "button_fixed": false,
             "use_content_above": false,
             "block_custom_class": "",
             "animations": "inherit"
