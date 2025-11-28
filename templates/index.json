@@ -854,7 +854,7 @@
       ],
       "name": "Custom content",
       "settings": {
-        "heading": "Custom content",
+        "heading": "",
         "heading_size": "h3",
         "subheading": "",
         "description": "",
@@ -868,7 +868,7 @@
         "gap_mobile": 16,
         "use_scroll_mobile": false,
         "padding_top": 48,
-        "padding_bottom": 48,
+        "padding_bottom": 68,
         "custom_class": ""
       }
     },
