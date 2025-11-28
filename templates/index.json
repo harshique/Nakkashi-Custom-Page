@@ -1484,49 +1484,20 @@
         "heading_size": "h3",
         "subheading": "",
         "description": "",
-        "header_alignment": "left",
+        "header_alignment": "center",
         "container": "container-fluid",
-        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
-        "design": "testimonials-6",
+        "color_scheme": "default",
+        "design": "testimonials-2",
         "show_stars": true,
         "autorotate": false,
-        "show_navigation": true,
-        "show_pagination": true,
+        "show_navigation": false,
+        "show_pagination": false,
         "star_color": "#000000",
-        "item_color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100,
+        "item_color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
+        "padding_top": 60,
+        "padding_bottom": 64,
         "custom_class": "",
         "animations": "inherit"
-      }
-    },
-    "11cfb44f-b725-4daf-8ee7-4bbf2c63914d": {
-      "type": "instagram",
-      "custom_css": [
-        ".container-full {padding-left: 0; padding-right: 0;}",
-        "@media (max-width: 767px) {br {display: none; }}"
-      ],
-      "settings": {
-        "heading": "Follow us Instagram",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "Tag <span class=\"text-black\">@minimog</span> in your Instagram photos for a chance to be featured here.<br>\nFind more inspiration on <a href=\"#\">our Instagram.</a>",
-        "header_alignment": "center",
-        "container": "w-full",
-        "color_scheme": "",
-        "color_scheme_content": "",
-        "layout": "grid",
-        "images_count": 5,
-        "grid_columns": 5,
-        "gap": 0,
-        "mobile_gap": 0,
-        "profile": "https://www.instagram.com/minimog.trendy/",
-        "button_label": "",
-        "button_style": "m-button--secondary",
-        "use_scroll_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "custom_class": ""
       }
     },
     "16225125199f82d8fe": {
@@ -1643,7 +1614,6 @@
     "collection_list_tjXYY7",
     "custom_content_KiFzqG",
     "testimonials_pnyUnX",
-    "11cfb44f-b725-4daf-8ee7-4bbf2c63914d",
     "16225125199f82d8fe"
   ]
 }
