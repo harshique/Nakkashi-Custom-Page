@@ -219,15 +219,7 @@
           "settings": {
             "collection": "bracelets",
             "title": "",
-            "item_image": "shopify://shop_images/Bracelet_3_64b139c4-f244-4927-b3e8-83ac24b5a2ce.webp"
-          }
-        },
-        "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "earrings",
-            "title": "",
-            "item_image": "shopify://shop_images/Earrings_3_ed9e9033-a5ea-4078-8512-ceb38610d296.webp"
+            "item_image": "shopify://shop_images/ba109-1.webp"
           }
         },
         "16225316461d1cff80-1": {
@@ -235,7 +227,15 @@
           "settings": {
             "collection": "rings",
             "title": "",
-            "item_image": "shopify://shop_images/Rings_3_6533ac4a-449a-4f35-9113-3d645faefd95.webp"
+            "item_image": "shopify://shop_images/pexels-ba-tik-3754177_fa9a43a9-f815-4779-811b-fa0b9e4b3836.webp"
+          }
+        },
+        "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "earrings",
+            "title": "",
+            "item_image": "shopify://shop_images/ba109-2.webp"
           }
         },
         "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec": {
@@ -251,14 +251,14 @@
           "settings": {
             "collection": "accessories-bags",
             "title": "",
-            "item_image": "shopify://shop_images/mangalsutra_3_9fb1859f-1120-48c6-8cfc-e3094f894274.webp"
+            "item_image": "shopify://shop_images/instagram2.webp"
           }
         }
       },
       "block_order": [
         "65e38235-f03b-43c9-8590-38c9c656e51c",
-        "694c01c9-a95f-4c09-9cf0-ec75f0131e98",
         "16225316461d1cff80-1",
+        "694c01c9-a95f-4c09-9cf0-ec75f0131e98",
         "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec",
         "12985deb-0775-45ce-80f6-6be7f3150a91"
       ],
@@ -266,6 +266,91 @@
         ".m-collection-card__title {font-weight: 400;}",
         "@media (max-width: 767px) {.m-slider-controls[class*=\"-bottom-left\"], .m-section__header {text-align: center; }}"
       ],
+      "settings": {
+        "heading": "EVERYDAY DEMIFINE JEWELLERY",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "footer",
+        "container": "container-fluid",
+        "layout": "grid",
+        "expanded": false,
+        "card_style": "standard",
+        "text_alignment": "center",
+        "hover_effect": "scaling-up",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": false,
+        "items_per_row": 5,
+        "item_gap": 5,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 4,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "mobile_gap": 16,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 74,
+        "padding_bottom": 38,
+        "custom_class": "sf-home__collection-list",
+        "animations": "inherit"
+      }
+    },
+    "collection_list_Mq3CzY": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_block_DUhp6g": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "bracelets",
+            "title": "",
+            "item_image": "shopify://shop_images/Bracelet_3_64b139c4-f244-4927-b3e8-83ac24b5a2ce.webp"
+          }
+        },
+        "collection_block_JfMRqz": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "earrings",
+            "title": "",
+            "item_image": "shopify://shop_images/Earrings_3_ed9e9033-a5ea-4078-8512-ceb38610d296.webp"
+          }
+        },
+        "collection_block_CdL6fL": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "rings",
+            "title": "",
+            "item_image": "shopify://shop_images/Rings_3_6533ac4a-449a-4f35-9113-3d645faefd95.webp"
+          }
+        },
+        "collection_block_a6nhbC": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "necklace",
+            "title": "",
+            "item_image": "shopify://shop_images/Necklace_3_bdb451b0-0be3-4bca-9ecf-b55a20368585.webp"
+          }
+        },
+        "collection_block_HG96y7": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "accessories-bags",
+            "title": "",
+            "item_image": "shopify://shop_images/mangalsutra_3_9fb1859f-1120-48c6-8cfc-e3094f894274.webp"
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_DUhp6g",
+        "collection_block_JfMRqz",
+        "collection_block_CdL6fL",
+        "collection_block_a6nhbC",
+        "collection_block_HG96y7"
+      ],
+      "disabled": true,
       "settings": {
         "heading": "EVERYDAY DEMIFINE JEWELLERY",
         "heading_size": "h3",
@@ -334,6 +419,124 @@
         "use_scroll_mobile": true,
         "item_gap_mobile": 16,
         "padding_top": 50,
+        "padding_bottom": 48,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_1_Cpx6VK": {
+      "type": "image-with-text-1",
+      "blocks": {
+        "item_bCGyBk": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ba109-1.webp",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_NY8rpY": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_D4nirn": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_6NkckM": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ba109-2.webp",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_DTpxX7": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "Image card",
+            "subtitle": "",
+            "button_label": "Shop now",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        }
+      },
+      "block_order": [
+        "item_bCGyBk",
+        "item_NY8rpY",
+        "item_D4nirn",
+        "item_6NkckM",
+        "item_DTpxX7"
+      ],
+      "disabled": true,
+      "name": "Image cards",
+      "settings": {
+        "heading": "Featured collection",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "layout": "layout_3",
+        "gap": 30,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "padding_top": 54,
         "padding_bottom": 48,
         "custom_class": "",
         "animations": "inherit"
@@ -1536,7 +1739,9 @@
     "1621243260e1af0c20",
     "icon_box_ExidAT",
     "16225316461d1cff80",
+    "collection_list_Mq3CzY",
     "featured_collection_RFqLQP",
+    "image_with_text_1_Cpx6VK",
     "image_with_text_1_tF7HnG",
     "image_with_text_9b3jdm",
     "custom_content_FXR3Mn",
