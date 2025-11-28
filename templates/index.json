@@ -934,7 +934,7 @@
         "use_scroll_mobile": true,
         "item_gap_mobile": 16,
         "padding_top": 56,
-        "padding_bottom": 56,
+        "padding_bottom": 72,
         "custom_class": "sf-home__product-tab",
         "animations": "inherit"
       }
