@@ -636,7 +636,7 @@
         "description": "",
         "header_alignment": "center",
         "container": "container-fluid",
-        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
+        "color_scheme": "default",
         "tab_header": "horizontal",
         "limit": 10,
         "show_button": true,
