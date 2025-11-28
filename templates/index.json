@@ -871,7 +871,7 @@
         "speed": 30,
         "item_gap": 40,
         "item_gap_mobile": 20,
-        "color_scheme": "",
+        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
         "padding_top": 26,
         "padding_bottom": 26,
         "custom_class": ""
@@ -915,9 +915,9 @@
       ],
       "settings": {
         "container": "container-fluid",
-        "color_scheme": "",
+        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
         "header_alignment": "left",
-        "heading": "Beautifully functional <br>consciously crafted",
+        "heading": "Beautifully functional consciously crafted",
         "heading_size": "h2",
         "subheading": "Hot This Week",
         "description": "",
@@ -931,257 +931,6 @@
         "padding_bottom": 0,
         "custom_class": "",
         "animations": "inherit"
-      }
-    },
-    "brands_list_XfN79B": {
-      "type": "brands-list",
-      "blocks": {
-        "image_DRQGaG": {
-          "type": "image",
-          "settings": {
-            "image_by_url": "",
-            "image_link": "",
-            "max_width": "150px"
-          }
-        },
-        "image_iz6arX": {
-          "type": "image",
-          "settings": {
-            "image_by_url": "",
-            "image_link": "",
-            "max_width": "150px"
-          }
-        },
-        "image_mWnYAa": {
-          "type": "image",
-          "settings": {
-            "image_by_url": "",
-            "image_link": "",
-            "max_width": "150px"
-          }
-        },
-        "image_GkqNqL": {
-          "type": "image",
-          "settings": {
-            "image_by_url": "",
-            "image_link": "",
-            "max_width": "150px"
-          }
-        },
-        "image_VKAxfW": {
-          "type": "image",
-          "settings": {
-            "image_by_url": "",
-            "image_link": "",
-            "max_width": "150px"
-          }
-        },
-        "image_9dYQ7c": {
-          "type": "image",
-          "settings": {
-            "image_by_url": "",
-            "image_link": "",
-            "max_width": "150px"
-          }
-        }
-      },
-      "block_order": [
-        "image_DRQGaG",
-        "image_iz6arX",
-        "image_mWnYAa",
-        "image_GkqNqL",
-        "image_VKAxfW",
-        "image_9dYQ7c"
-      ],
-      "custom_css": [
-        ".m-section__heading {font-size: 18px; font-weight: 500;}",
-        "@media (max-width: 767px) {.m-brands-list__inner {grid-template-columns: repeat(3, minmax(0, 1fr)); }}"
-      ],
-      "settings": {
-        "heading": "Featured in Press",
-        "heading_size": "h3",
-        "subheading": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "",
-        "item_per_row": 6,
-        "column_gap": 0,
-        "row_gap": 30,
-        "column_gap_mobile": 10,
-        "row_gap_mobile": 10,
-        "enable_slider": false,
-        "show_nav": false,
-        "show_pagination": false,
-        "autorotate": false,
-        "autorotate_speed": 3,
-        "padding_top": 100,
-        "padding_bottom": 80,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "custom_content_xALaMf": {
-      "type": "custom-content",
-      "blocks": {
-        "html_gbT3c7": {
-          "type": "html",
-          "settings": {
-            "code": "<div class=\"m-divider\"></div>",
-            "width": "100%",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "html_gbT3c7"
-      ],
-      "custom_css": [
-        ".m-divider {height: 1px; width: 100%; background: rgb(var(--color-border));}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "",
-        "content_color_scheme": "",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "gap": 30,
-        "gap_mobile": 16,
-        "use_scroll_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_class": ""
-      }
-    },
-    "custom_content_f3reLw": {
-      "type": "custom-content",
-      "blocks": {
-        "text_DppTKH": {
-          "type": "text",
-          "settings": {
-            "title": "The Coastal Edition",
-            "subheading": "",
-            "text": "<p>Our new cozy collection is made with environmentally friendly materials and<br/> simple to care for so you can stay cozy wherever.</p>",
-            "width": "100%",
-            "alignment": "center",
-            "align_text": "center",
-            "text_size": "large",
-            "text_color": "inherit",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_style": "m-button--secondary",
-            "button_size": "",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "text_DppTKH"
-      ],
-      "custom_css": [
-        ".m-richtext__description {font-size: 16px;}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "",
-        "content_color_scheme": "",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "gap": 0,
-        "gap_mobile": 16,
-        "use_scroll_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "custom_class": ""
-      }
-    },
-    "custom_content_btgYN3": {
-      "type": "custom-content",
-      "blocks": {
-        "lookbook_XVdfNy": {
-          "type": "lookbook",
-          "settings": {
-            "color_scheme": "",
-            "width": "50%",
-            "top_1": 31,
-            "left_1": 37,
-            "product_1": "short-sleeve-white",
-            "top_2": 26,
-            "left_2": 50,
-            "product_2": "",
-            "top_3": 61,
-            "left_3": 48,
-            "product_3": "",
-            "top_4": 0,
-            "left_4": 0,
-            "product_4": "",
-            "top_5": 20,
-            "left_5": 0,
-            "product_5": "",
-            "block_custom_class": "m-block-first",
-            "animations": "inherit"
-          }
-        },
-        "lookbook_hDUCNi": {
-          "type": "lookbook",
-          "settings": {
-            "color_scheme": "",
-            "width": "50%",
-            "top_1": 50,
-            "left_1": 36,
-            "product_1": "faded-effect-jean",
-            "top_2": 26,
-            "left_2": 50,
-            "product_2": "",
-            "top_3": 61,
-            "left_3": 48,
-            "product_3": "",
-            "top_4": 0,
-            "left_4": 0,
-            "product_4": "",
-            "top_5": 20,
-            "left_5": 0,
-            "product_5": "",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "lookbook_XVdfNy",
-        "lookbook_hDUCNi"
-      ],
-      "custom_css": [
-        ".m-custom-content__wrapper,.m-block-first {position: relative; z-index: 1;}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "",
-        "content_color_scheme": "",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "gap": 0,
-        "gap_mobile": 0,
-        "use_scroll_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "custom_class": ""
       }
     },
     "custom_content_hh6hmV": {
@@ -1607,10 +1356,6 @@
     "lookbook_MB4Mr4",
     "scrolling_promotion_jjrFyf",
     "collection_tabs_QE4TLj",
-    "brands_list_XfN79B",
-    "custom_content_xALaMf",
-    "custom_content_f3reLw",
-    "custom_content_btgYN3",
     "custom_content_hh6hmV",
     "collection_list_tjXYY7",
     "custom_content_KiFzqG",
