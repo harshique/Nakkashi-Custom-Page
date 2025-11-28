@@ -495,6 +495,80 @@
         "animations": "inherit"
       }
     },
+    "custom_content_FXR3Mn": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_gKBMJU": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/image_829.webp",
+            "link": "",
+            "title": "Brilliance Awaits",
+            "subtitle": "DISCOVER YOUR SPARKLE",
+            "description": "",
+            "button_label": "SHOP NOW",
+            "button_style": "m-button--link",
+            "button_size": "m-button--small",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_card_khK4JV": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "color_scheme": "",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify://shop_images/image_830_c1427037-0c9c-4eff-b772-6c5be9090475.webp",
+            "link": "",
+            "title": "Sparkle & Shine",
+            "subtitle": "ELEGANCE, REDEFINED",
+            "description": "",
+            "button_label": "SHOP NOW",
+            "button_style": "m-button--link",
+            "button_size": "m-button--small",
+            "button_fixed": false,
+            "use_content_above": false,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_gKBMJU",
+        "image_card_khK4JV"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "content_color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 68,
+        "custom_class": ""
+      }
+    },
     "slider_wwqACe": {
       "type": "slider",
       "blocks": {
@@ -588,6 +662,7 @@
         "slider_item_Ec9EYr",
         "slider_item_kdfhfX"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "container": "w-full",
@@ -781,6 +856,7 @@
         "shop_this_look_AVdw3f",
         "shop_this_look_EcLGgQ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Check out mix & match",
         "heading_size": "h3",
@@ -796,80 +872,6 @@
         "custom_class": "",
         "animations": "inherit",
         "enable_bg_zoom_effect": true
-      }
-    },
-    "custom_content_FXR3Mn": {
-      "type": "custom-content",
-      "blocks": {
-        "image_card_gKBMJU": {
-          "type": "image_card",
-          "settings": {
-            "width": "50%",
-            "color_scheme": "",
-            "content_position": "bottom_center",
-            "content_alignment": "center",
-            "text_size": "medium",
-            "text_color": "white",
-            "image": "shopify://shop_images/image_829.webp",
-            "link": "",
-            "title": "Brilliance Awaits",
-            "subtitle": "DISCOVER YOUR SPARKLE",
-            "description": "",
-            "button_label": "SHOP NOW",
-            "button_style": "m-button--link",
-            "button_size": "m-button--small",
-            "button_fixed": false,
-            "use_content_above": false,
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        },
-        "image_card_khK4JV": {
-          "type": "image_card",
-          "settings": {
-            "width": "50%",
-            "color_scheme": "",
-            "content_position": "bottom_center",
-            "content_alignment": "center",
-            "text_size": "medium",
-            "text_color": "white",
-            "image": "shopify://shop_images/image_830_c1427037-0c9c-4eff-b772-6c5be9090475.webp",
-            "link": "",
-            "title": "Sparkle & Shine",
-            "subtitle": "ELEGANCE, REDEFINED",
-            "description": "",
-            "button_label": "SHOP NOW",
-            "button_style": "m-button--link",
-            "button_size": "m-button--small",
-            "button_fixed": false,
-            "use_content_above": false,
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "image_card_gKBMJU",
-        "image_card_khK4JV"
-      ],
-      "name": "Custom content",
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
-        "content_color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "gap": 30,
-        "gap_mobile": 16,
-        "use_scroll_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 68,
-        "custom_class": ""
       }
     },
     "scrolling_promotion_jjrFyf": {
@@ -948,6 +950,84 @@
         "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
         "padding_top": 26,
         "padding_bottom": 26,
+        "custom_class": ""
+      }
+    },
+    "custom_content_d448Cp": {
+      "type": "custom-content",
+      "blocks": {
+        "text_wiwQn3": {
+          "type": "text",
+          "settings": {
+            "title": "GEMSY",
+            "subheading": "",
+            "text": "<p>JEWELRY AS UNIQUE As YOU ARE </p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "image_djyfqi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/matthew-reyes-eZj5QVf_dZo-unsplash_1.webp",
+            "link": "",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_DYCyKA": {
+          "type": "text",
+          "settings": {
+            "title": "SHOP FOR NOW",
+            "subheading": "",
+            "text": "<p>INSTAFRAM @NAKKASHI</p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_wiwQn3",
+        "image_djyfqi",
+        "text_DYCyKA"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "scheme-081e13a6-5875-4dd1-a764-8e623d95ed07",
+        "content_color_scheme": "scheme-081e13a6-5875-4dd1-a764-8e623d95ed07",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "gap": 30,
+        "gap_mobile": 16,
+        "use_scroll_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 54,
         "custom_class": ""
       }
     },
@@ -1424,12 +1504,13 @@
     "featured_collection_RFqLQP",
     "image_with_text_1_tF7HnG",
     "image_with_text_9b3jdm",
+    "custom_content_FXR3Mn",
     "slider_wwqACe",
     "162251092958fcda7c",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "lookbook_MB4Mr4",
-    "custom_content_FXR3Mn",
     "scrolling_promotion_jjrFyf",
+    "custom_content_d448Cp",
     "collection_tabs_QE4TLj",
     "custom_content_hh6hmV",
     "collection_list_tjXYY7",
