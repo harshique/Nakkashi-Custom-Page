@@ -1133,58 +1133,41 @@
         "trigger_behavior": "hover",
         "autoplay": true,
         "autoplay_duration": 3,
-        "padding_top": 100,
-        "padding_bottom": 0,
+        "padding_top": 64,
+        "padding_bottom": 52,
         "custom_class": "",
         "animations": "inherit"
       }
     },
-    "custom_content_hh6hmV": {
-      "type": "custom-content",
-      "blocks": {
-        "text_Dxjzb6": {
-          "type": "text",
-          "settings": {
-            "title": "Living out every single day and <br> be brave to show off your own true colors",
-            "subheading": "Minimog Store",
-            "text": "<p>Our new cozy collection is made with environmentally friendly materials and <br/> simple to care for so you can stay cozy wherever .</p>",
-            "width": "100%",
-            "alignment": "center",
-            "align_text": "center",
-            "text_size": "medium",
-            "text_color": "inherit",
-            "button_label": "Shop Collection",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": "",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "text_Dxjzb6"
-      ],
-      "custom_css": [
-        "@media (max-width: 767px) {br {display: none; }}"
-      ],
+    "image_with_text_2_YhcckA": {
+      "type": "image-with-text-2",
+      "name": "Image with text overlay",
       "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
-        "content_color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
-        "enable_parallax": false,
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "small",
+        "show_overlay": true,
+        "image": "shopify://shop_images/image_837_7319dc0e-9301-41c7-909b-8c19c6d43984.webp",
+        "image_link": "",
+        "parallax": false,
         "parallax_direction": "vertical",
-        "gap": 30,
-        "gap_mobile": 16,
-        "use_scroll_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "custom_class": ""
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Image with text overlay",
+        "subtitle": "",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+        "button_label": "Shop now",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "text_alignment_mobile": "center",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
       }
     },
     "collection_list_tjXYY7": {
@@ -1565,7 +1548,7 @@
     "custom_content_d448Cp",
     "featured_collection_banner_rGXtY9",
     "collection_tabs_QE4TLj",
-    "custom_content_hh6hmV",
+    "image_with_text_2_YhcckA",
     "collection_list_tjXYY7",
     "custom_content_KiFzqG",
     "testimonials_pnyUnX",
