@@ -80,7 +80,7 @@
         "color_scheme": "default",
         "color_scheme_menu": "default",
         "header_design": "logo-center__2l",
-        "container": "container-fluid",
+        "container": "w-full",
         "sticky_header": "on_scroll_up",
         "transparent_on_top": false,
         "transparent_text_color": "#ffffff",
