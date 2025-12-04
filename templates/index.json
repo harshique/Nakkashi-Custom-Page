@@ -189,7 +189,7 @@
         "container": "container-fluid",
         "color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
         "item_per_row": 4,
-        "item_gap": 14,
+        "item_gap": 20,
         "item_gap_mobile": 10,
         "card_color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
         "card_style": "horizontal",
