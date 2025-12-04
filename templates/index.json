@@ -1584,7 +1584,7 @@
         "autorotate": true,
         "show_navigation": false,
         "show_pagination": false,
-        "star_color": "#000000",
+        "star_color": "#e9f0f8",
         "item_color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
         "padding_top": 60,
         "padding_bottom": 64,
