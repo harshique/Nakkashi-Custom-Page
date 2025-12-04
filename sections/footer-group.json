@@ -82,7 +82,7 @@
         "design": "footer-1",
         "container": "container-fluid",
         "bordered": false,
-        "copyright": "© Nakkashi 2025",
+        "copyright": "© Nakkashi 2025 , All Rights Reserved.",
         "show_country_selector": false,
         "show_currency_selector": false,
         "show_language_selector": false,
