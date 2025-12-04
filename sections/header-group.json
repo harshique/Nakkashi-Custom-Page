@@ -74,7 +74,7 @@
       ],
       "custom_css": [
         ".m-topbar a[href*=\"facebook\"] {order: 2;}",
-        ".social-media-links {column-gap: 30px;}"
+        ".social-media-links {column-gap: 20px;}"
       ],
       "settings": {
         "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
