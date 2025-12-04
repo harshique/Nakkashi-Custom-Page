@@ -1,9 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-header": {
       "type": "collection-page-header",
       "settings": {
-        "color_scheme": "dark",
+        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
         "container": "container-fluid",
         "layout": "inside",
         "image_position": "background",
