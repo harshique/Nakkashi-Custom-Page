@@ -215,7 +215,7 @@
           "type": "collection_block",
           "settings": {
             "collection": "necklace",
-            "title": "",
+            "title": "NECKLACE",
             "item_image": "shopify://shop_images/ba109-1.webp"
           }
         },
@@ -223,7 +223,7 @@
           "type": "collection_block",
           "settings": {
             "collection": "rings",
-            "title": "",
+            "title": "RING",
             "item_image": "shopify://shop_images/pexels-ba-tik-3754177_fa9a43a9-f815-4779-811b-fa0b9e4b3836.webp"
           }
         },
@@ -231,7 +231,7 @@
           "type": "collection_block",
           "settings": {
             "collection": "earrings",
-            "title": "",
+            "title": "EARRING",
             "item_image": "shopify://shop_images/ba109-2.webp"
           }
         },
@@ -239,7 +239,7 @@
           "type": "collection_block",
           "settings": {
             "collection": "pendant",
-            "title": "",
+            "title": "PENDANT",
             "item_image": "shopify://shop_images/collection-v2-1.webp"
           }
         },
@@ -247,7 +247,7 @@
           "type": "collection_block",
           "settings": {
             "collection": "bracelets",
-            "title": "",
+            "title": "BRACELET",
             "item_image": "shopify://shop_images/instagram2.webp"
           }
         }
@@ -264,7 +264,7 @@
         "@media (max-width: 767px) {.m-slider-controls[class*=\"-bottom-left\"], .m-section__header {text-align: center; }}"
       ],
       "settings": {
-        "heading": "EVERYDAY DEMIFINE JEWELLERY",
+        "heading": "Everyday Demifine Jewellery",
         "heading_size": "h3",
         "subheading": "",
         "description": "",
