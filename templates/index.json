@@ -1597,6 +1597,7 @@
         "16225125199f82d8fe-0": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/free-shipping_1.png",
             "image_by_url": "",
             "title": "Free Shipping",
             "description": "<p>Free Shipping for orders over £130</p>",
@@ -1610,6 +1611,7 @@
         "16225125199f82d8fe-1": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/question.png",
             "image_by_url": "",
             "title": "Money Guarantee",
             "description": "<p>Within 30 days for an exchange.</p>",
@@ -1623,6 +1625,7 @@
         "16225125199f82d8fe-2": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/guarantee.png",
             "image_by_url": "",
             "title": "Online Support",
             "description": "<p>24 hours a day, 7 days a week</p>",
@@ -1636,6 +1639,7 @@
         "71deafbb-3baf-443a-a087-3f7b8af7b9fa": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/secure-payment_2.png",
             "image_by_url": "",
             "title": "Flexible Payment",
             "description": "<p>Pay with Multiple Credit Cards</p>",
