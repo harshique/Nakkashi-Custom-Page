@@ -17,10 +17,11 @@
         "custom_text_TD34wA": {
           "type": "custom_text",
           "settings": {
-            "title": "Get in Touch",
+            "title": "",
+            "image": "shopify://shop_images/Nakkasshi.png",
             "image_max": "200px",
             "description": "<p>Enter your email below to be the first to know about new collections and product launches.</p>",
-            "width": "25%",
+            "width": "33%",
             "order_first": false,
             "open_default": false
           }
@@ -29,7 +30,7 @@
           "type": "menu",
           "settings": {
             "menu": "main-menu",
-            "title": "Quick link",
+            "title": "QUICK LINKS",
             "width": "25%",
             "order_first": false,
             "open_default": false
@@ -39,7 +40,7 @@
           "type": "menu",
           "settings": {
             "menu": "footer",
-            "title": "Company",
+            "title": "BRAND",
             "width": "25%",
             "order_first": false,
             "open_default": false
@@ -48,7 +49,7 @@
         "7b0bf4c6-3873-4222-b8d6-ce009e710078": {
           "type": "newsletter",
           "settings": {
-            "title": "Newsletter",
+            "title": "NEWSLETTER",
             "description": "Sign up for our newsletter and receive 10% off your first order",
             "email_placeholder": "Enter your email",
             "show_icon_input": false,
@@ -90,7 +91,7 @@
         "show_payment_icons": true,
         "payment_icons_width": 300,
         "footer_bottom_color_scheme": "default",
-        "footer_bottom_menu": "",
+        "footer_bottom_menu": "footer",
         "show_menu_item_divider": true
       }
     },
