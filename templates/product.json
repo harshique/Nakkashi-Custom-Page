@@ -67,7 +67,7 @@
             "deliver_text": "Estimated Delivery:",
             "deliver_days": "7",
             "date_format": "%b %d",
-            "show_shipping_text": true,
+            "show_shipping_text": false,
             "shipping_text": "<p><strong>Free Shipping & Returns: </strong>On all orders over $75</p>"
           }
         },
