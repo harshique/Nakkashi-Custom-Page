@@ -136,7 +136,7 @@
       ],
       "settings": {
         "container": "container",
-        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
+        "color_scheme": "default",
         "default_open": true,
         "padding_top": 0,
         "padding_bottom": 50,
@@ -359,7 +359,7 @@
       ],
       "settings": {
         "container": "container",
-        "color_scheme": "scheme-46a770aa-8966-4bdd-ab29-a3d4a6c1a654",
+        "color_scheme": "dark",
         "image_position": "left",
         "column_gap": 100,
         "heading": "Discover more in our FAQ",
