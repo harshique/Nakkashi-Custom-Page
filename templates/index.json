@@ -124,7 +124,7 @@
           "type": "iconbox",
           "settings": {
             "image_by_url": "",
-            "title": "925 Sterling Silver Guaranteed",
+            "title": "925 Sterling Silver",
             "description": "<p>All our jewelry is crafted with <strong>100% certified 925 sterling silver.</strong></p>",
             "link": "",
             "button_label": "",
@@ -190,7 +190,7 @@
         "container": "container-fluid",
         "color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
         "item_per_row": 4,
-        "item_gap": 20,
+        "item_gap": 14,
         "item_gap_mobile": 10,
         "card_color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
         "card_style": "horizontal",
