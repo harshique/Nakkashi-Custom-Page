@@ -38,7 +38,7 @@
         "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu",
+            "menu": "footer",
             "title": "Company",
             "width": "25%",
             "order_first": false,
@@ -89,7 +89,7 @@
         "enable_follow_on_shop": true,
         "show_payment_icons": true,
         "payment_icons_width": 300,
-        "footer_bottom_color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "footer_bottom_color_scheme": "default",
         "footer_bottom_menu": "",
         "show_menu_item_divider": true
       }
@@ -134,6 +134,7 @@
         "block-2",
         "block-3"
       ],
+      "disabled": true,
       "settings": {
         "design_mode": false,
         "enable": false,

@@ -1578,7 +1578,7 @@
         "description": "",
         "header_alignment": "center",
         "container": "container-fluid",
-        "color_scheme": "scheme-cee058e4-58e3-46aa-9af9-219dadc79066",
+        "color_scheme": "default",
         "design": "testimonials-1",
         "show_stars": true,
         "autorotate": true,
