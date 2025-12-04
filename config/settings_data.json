@@ -46,6 +46,8 @@
     "filter_color1": "Gingham",
     "filter_color2": "flannel",
     "filter_color3": "floral",
+    "preorder_badge_color_scheme": "default",
+    "soldout_badge_color_scheme": "default",
     "share_facebook": true,
     "share_twitter": false,
     "share_pinterest": false,
