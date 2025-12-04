@@ -29,7 +29,7 @@
         "7ebc2f78-975b-4a81-b874-103c3355a866": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu",
+            "menu": "quick-links",
             "title": "QUICK LINKS",
             "width": "25%",
             "order_first": false,
@@ -39,7 +39,7 @@
         "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
           "type": "menu",
           "settings": {
-            "menu": "footer",
+            "menu": "brand",
             "title": "BRAND",
             "width": "25%",
             "order_first": false,
@@ -81,7 +81,7 @@
         "color_scheme": "dark",
         "design": "footer-1",
         "container": "container-fluid",
-        "bordered": false,
+        "bordered": true,
         "copyright": "© Nakkashi 2025 , All Rights Reserved.",
         "show_country_selector": false,
         "show_currency_selector": false,
