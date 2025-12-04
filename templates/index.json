@@ -1301,6 +1301,7 @@
         },
         "collection_fHQrBe": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "heading": "",
