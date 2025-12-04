@@ -123,10 +123,9 @@
         "iconbox_7tyhQY": {
           "type": "iconbox",
           "settings": {
-            "image": "shopify://shop_images/free-shipping_1.png",
             "image_by_url": "",
-            "title": "Fast Shipping",
-            "description": "<p>We ship your package within 24-48 hrs.</p>",
+            "title": "925 Sterling Silver Guaranteed",
+            "description": "<p>All our jewelry is crafted with <strong>100% certified 925 sterling silver.</strong></p>",
             "link": "",
             "button_label": "",
             "button_link": "",
@@ -137,10 +136,9 @@
         "iconbox_ahcBWw": {
           "type": "iconbox",
           "settings": {
-            "image": "shopify://shop_images/secure-payment_2.png",
             "image_by_url": "",
-            "title": "Flexible Payment",
-            "description": "<p>We ensure secure and flexible payments</p>",
+            "title": "Verified Authenticity Certificate",
+            "description": "<p>Every jewelry piece comes with an <strong>authentication card</strong> for your trust.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
@@ -151,10 +149,9 @@
         "iconbox_9Kjr4Y": {
           "type": "iconbox",
           "settings": {
-            "image": "shopify://shop_images/question.png",
             "image_by_url": "",
-            "title": "Get in Touch",
-            "description": "<p>Outstanding premium support</p>",
+            "title": "Tarnish-Resistant Finish",
+            "description": "<p>Each piece is crafted with a protective coating to ensure <strong>long-lasting shine</strong>.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
@@ -167,8 +164,8 @@
           "settings": {
             "image": "shopify://shop_images/guarantee.png",
             "image_by_url": "",
-            "title": "Quality Assured",
-            "description": "<p>You can trust us for 100% quality, every time!</p>",
+            "title": "Handcrafted With Precision",
+            "description": "<p>Expert artisans create every piece with <strong>attention to detail and fine craftsmanship</strong>.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
