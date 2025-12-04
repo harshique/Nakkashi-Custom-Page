@@ -38,7 +38,7 @@
       ],
       "settings": {
         "container": "container",
-        "color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
+        "color_scheme": "dark",
         "show_announcement": true,
         "homepage_only": false,
         "show_close": false,
@@ -77,8 +77,8 @@
         ".social-media-links {column-gap: 20px;}"
       ],
       "settings": {
-        "color_scheme": "dark",
-        "color_scheme_menu": "dark",
+        "color_scheme": "default",
+        "color_scheme_menu": "default",
         "header_design": "logo-center__2l",
         "container": "container-fluid",
         "sticky_header": "on_scroll_up",
