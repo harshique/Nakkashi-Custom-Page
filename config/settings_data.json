@@ -33,7 +33,7 @@
     "spacing_sections_mobile": 0,
     "animations": "fade-in-up",
     "pcard_layout": "2",
-    "pcard_alignment": "left",
+    "pcard_alignment": "center",
     "pcard_image_ratio": "1/1",
     "pcard_option_design": "dropdown",
     "show_compare_button": false,
