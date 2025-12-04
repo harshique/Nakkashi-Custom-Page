@@ -107,12 +107,12 @@
       },
       "dark": {
         "settings": {
-          "background": "#000000",
+          "background": "#f1e4d1",
           "background_secondary": "#f5f5f5",
           "background_gradient": "",
-          "text": "#ffffff",
-          "subtext": "#ffffff",
-          "heading_text": "#ffffff",
+          "text": "#162858",
+          "subtext": "#162858",
+          "heading_text": "#162858",
           "button": "#ffffff",
           "button_label": "#222222",
           "outline_button_label": "#ffffff",
