@@ -179,6 +179,7 @@
         "iconbox_9Kjr4Y",
         "iconbox_PdGnzH"
       ],
+      "custom_css": [],
       "name": "Featured promotion",
       "settings": {
         "heading": "",
@@ -194,7 +195,7 @@
         "card_color_scheme": "scheme-da8e90e4-211d-401f-8f19-67480b36f94f",
         "card_style": "horizontal",
         "image_max_width": "60px",
-        "content_alignment": "center",
+        "content_alignment": "start",
         "hover_effect": "scaling-up",
         "enable_slider": false,
         "show_pagination": false,
