@@ -137,6 +137,7 @@
         "iconbox_ahcBWw": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png",
             "image_by_url": "",
             "title": "Verified Authentic",
             "description": "<p>Every jewelry piece comes with an <strong>authentication card</strong> for your trust.</p>",
