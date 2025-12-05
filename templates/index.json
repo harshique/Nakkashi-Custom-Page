@@ -1600,8 +1600,8 @@
           "settings": {
             "image": "shopify://shop_images/free-shipping_1.png",
             "image_by_url": "",
-            "title": "Free Shipping",
-            "description": "<p>Free Shipping for orders over £130</p>",
+            "title": "Fast Shipping",
+            "description": "<p>We ship your package within 24-48 hours.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
