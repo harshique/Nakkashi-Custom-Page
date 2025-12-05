@@ -1614,8 +1614,8 @@
           "settings": {
             "image": "shopify://shop_images/question.png",
             "image_by_url": "",
-            "title": "Money Guarantee",
-            "description": "<p>Within 30 days for an exchange.</p>",
+            "title": "Get In Touch",
+            "description": "<p>Our premium support team is always available.</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
@@ -1628,8 +1628,8 @@
           "settings": {
             "image": "shopify://shop_images/guarantee.png",
             "image_by_url": "",
-            "title": "Online Support",
-            "description": "<p>24 hours a day, 7 days a week</p>",
+            "title": "100% Quality Assured",
+            "description": "<p>You can trust us for 100% quality, every time!</p>",
             "link": "",
             "button_label": "",
             "button_link": "",
