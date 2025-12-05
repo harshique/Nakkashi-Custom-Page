@@ -1515,31 +1515,9 @@
         "testimonial_X8q9A4": {
           "type": "testimonial",
           "settings": {
-            "title": "Love it so much",
-            "description": "<p>Hands down one of the best shirts I’ve ever owned.  Fits great, feels amazing, seems to stay cool and is somewhat water resistant. </p>",
-            "footer": "<p>Ben B.</p>",
-            "image_text": "",
-            "image_link": "",
-            "product": ""
-          }
-        },
-        "testimonial_ef4Etp": {
-          "type": "testimonial",
-          "settings": {
-            "title": "Love it so much",
-            "description": "<p>Was I in Hawaii?! No. Did I feel like I was in Hawaii?! No, because it’s snowing outside. But, would I wear this in Hawaii ❤️</p>",
-            "footer": "<p>Dean D. US</p>",
-            "image_text": "",
-            "image_link": "",
-            "product": ""
-          }
-        },
-        "testimonial_bUi88K": {
-          "type": "testimonial",
-          "settings": {
-            "title": "Love it so much",
-            "description": "<p>Always getting compliments from family, friends, and strangers. 🤗 🙌</p>",
-            "footer": "<p>John D.</p>",
+            "title": "",
+            "description": "<p>“The quality is amazing and the design is very unique. Definitely one of the best silver jewellery brands I’ve tried.”</p>",
+            "footer": "<p>Pooja Verma</p>",
             "image_text": "",
             "image_link": "",
             "product": ""
@@ -1561,8 +1539,6 @@
         "testimonial_7bVRtk",
         "testimonial_BaC37W",
         "testimonial_X8q9A4",
-        "testimonial_ef4Etp",
-        "testimonial_bUi88K",
         "testimonial_NMt6Em"
       ],
       "custom_css": [
