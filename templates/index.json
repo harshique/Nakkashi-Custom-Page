@@ -151,6 +151,7 @@
         "iconbox_9Kjr4Y": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/Untitled_design_3.png",
             "image_by_url": "",
             "title": "Tarnish Resistant",
             "description": "<p>Each piece is crafted with a protective coating to ensure <strong>long-lasting shine</strong>.</p>",
@@ -164,6 +165,7 @@
         "iconbox_PdGnzH": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/Untitled_design_4.png",
             "image_by_url": "",
             "title": "Precision Crafted",
             "description": "<p>Expert artisans create every piece with <strong>attention to detail and fine craftsmanship</strong>.</p>",
