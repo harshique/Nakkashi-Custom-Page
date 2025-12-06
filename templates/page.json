@@ -55,10 +55,47 @@
         "custom_class": "",
         "animations": "inherit"
       }
+    },
+    "image_with_text_CCNkdM": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "layout": "left",
+        "image_column_size": "6",
+        "image_overlap": false,
+        "show_image_reverse": false,
+        "hover_effect": false,
+        "image_animation": "none",
+        "image": "shopify://shop_images/image_831.webp",
+        "link": "",
+        "link_2": "",
+        "second_image_offset_top": 10,
+        "title": "Fine Silver, Crafted to Endure",
+        "sub_title": "",
+        "text": "<p>Nakkasshi is a refined expression of luxury silver jewellery, inspired by timeless artistry and elevated by modern design. Each piece is meticulously crafted to embody elegance, precision, and quiet opulence—created for those who appreciate finesse in every detail.</p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Shop Now",
+        "button_link": "shopify://collections/bracelets",
+        "button_style": "m-button--link",
+        "button_size": "",
+        "padding_top": 38,
+        "padding_bottom": 34,
+        "custom_class": "",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_QcBLP6"
+    "rich_text_QcBLP6",
+    "image_with_text_CCNkdM"
   ]
 }
