@@ -117,6 +117,114 @@
         "animations": "inherit"
       }
     },
+    "slider_aVBDJH": {
+      "type": "slider",
+      "blocks": {
+        "slider_item_AVAnFV": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify://shop_images/Copy_of_Healing_Crystals.png",
+            "content_in_container": false,
+            "content_position": "center bottom",
+            "text_alignment": "center",
+            "text_size": "large",
+            "text_color": "white",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "sf__btn-secondary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "The ReCotton Tee",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "slider_item_dj3tkY": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "content_in_container": false,
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "text_size": "large",
+            "text_color": "black",
+            "subheading": "New Arrivals",
+            "title": "Responsible<br>\nDenim Lab",
+            "description": "",
+            "image_link": "",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_style": "sf__btn-secondary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": true,
+            "footer_alignment": "end",
+            "footer_text": "The ReCotton Tee",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "slider_item_LTFkQK": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "content_in_container": false,
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "text_size": "large",
+            "text_color": "black",
+            "subheading": "New Arrivals",
+            "title": "Ultimate Winter<br>\nWarmer",
+            "description": "",
+            "image_link": "",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_style": "sf__btn-secondary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": true,
+            "footer_alignment": "end",
+            "footer_text": "The ReCotton Tee",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_AVAnFV",
+        "slider_item_dj3tkY",
+        "slider_item_LTFkQK"
+      ],
+      "settings": {
+        "container": "w-full",
+        "slideshow_height": "adapt",
+        "show_overlay": false,
+        "dots_position": "right",
+        "dots_color": "dark",
+        "show_dots": true,
+        "show_arrows": false,
+        "autorotate": true,
+        "autorotate_speed": 4,
+        "use_content_above": false,
+        "custom_class": "sf-home__slideshow",
+        "animations": "inherit"
+      }
+    },
     "icon_box_ExidAT": {
       "type": "icon-box",
       "blocks": {
@@ -183,6 +291,7 @@
         "iconbox_9Kjr4Y",
         "iconbox_PdGnzH"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Featured promotion",
       "settings": {
@@ -1671,6 +1780,7 @@
   },
   "order": [
     "1621243260e1af0c20",
+    "slider_aVBDJH",
     "icon_box_ExidAT",
     "16225316461d1cff80",
     "collection_list_Mq3CzY",
