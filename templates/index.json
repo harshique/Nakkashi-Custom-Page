@@ -111,7 +111,7 @@
         "show_dots": true,
         "show_arrows": false,
         "autorotate": true,
-        "autorotate_speed": 4,
+        "autorotate_speed": 3,
         "use_content_above": false,
         "custom_class": "sf-home__slideshow",
         "animations": "inherit"
