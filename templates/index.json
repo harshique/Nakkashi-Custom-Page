@@ -12,17 +12,45 @@
     "1621243260e1af0c20": {
       "type": "slider",
       "blocks": {
+        "1621243260e1af0c20-1": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify://shop_images/beautiful-ring-necklaces.jpg",
+            "content_in_container": false,
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "text_size": "large",
+            "text_color": "black",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "sf__btn-secondary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "The ReCotton Tee",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
         "1621243260e1af0c20-0": {
           "type": "slider_item",
           "settings": {
-            "background": "shopify://shop_images/demo-4.webp",
+            "background": "shopify://shop_images/attractive-young-woman-displays-intricate-fine-jewelry-accessories-while-wearing-tailored-garment.jpg",
             "content_in_container": false,
-            "content_position": "center bottom",
-            "text_alignment": "center",
+            "content_position": "left middle",
+            "text_alignment": "left",
             "text_size": "large",
             "text_color": "white",
             "subheading": "",
-            "title": "EXQUISITE JEWELRY, <br>\nEFFORTLESS GLAMOUR",
+            "title": "Exquisite Jewellery, <br>\nEffortless Glamour",
             "description": "",
             "image_link": "",
             "button_text": "Shop Now",
@@ -37,34 +65,6 @@
             "footer_alignment": "end",
             "footer_text": "",
             "footer_button": "",
-            "footer_link": ""
-          }
-        },
-        "1621243260e1af0c20-1": {
-          "type": "slider_item",
-          "disabled": true,
-          "settings": {
-            "content_in_container": false,
-            "content_position": "left middle",
-            "text_alignment": "left",
-            "text_size": "large",
-            "text_color": "black",
-            "subheading": "New Arrivals",
-            "title": "Responsible<br>\nDenim Lab",
-            "description": "",
-            "image_link": "",
-            "button_text": "Shop Now",
-            "button_link": "",
-            "button_style": "sf__btn-secondary",
-            "button_size": "",
-            "second_button_text": "",
-            "second_button_link": "",
-            "second_button_style": "m-button--primary",
-            "second_button_size": "",
-            "show_footer": true,
-            "footer_alignment": "end",
-            "footer_text": "The ReCotton Tee",
-            "footer_button": "Shop Now",
             "footer_link": ""
           }
         },
@@ -98,13 +98,13 @@
         }
       },
       "block_order": [
-        "1621243260e1af0c20-0",
         "1621243260e1af0c20-1",
+        "1621243260e1af0c20-0",
         "1621243260e1af0c20-2"
       ],
       "settings": {
         "container": "w-full",
-        "slideshow_height": "adapt",
+        "slideshow_height": "fullscreen",
         "show_overlay": false,
         "dots_position": "right",
         "dots_color": "dark",
