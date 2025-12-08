@@ -104,7 +104,7 @@
       ],
       "settings": {
         "container": "w-full",
-        "slideshow_height": "fullscreen",
+        "slideshow_height": "large",
         "show_overlay": false,
         "dots_position": "right",
         "dots_color": "dark",
